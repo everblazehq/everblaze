@@ -1,0 +1,9 @@
+.*.swp
+*~
+*.zip
+composer.phar
+vendor/
+build/
+clover.xml
+coveralls-upload.json
+.phpunit*

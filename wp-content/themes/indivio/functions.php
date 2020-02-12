@@ -128,10 +128,6 @@ if ( ! function_exists( 'indivio_setup' ) ) :
 				'acf/block-contact-form',
 		 	);
 
-			if ( is_plugin_active( 'doneren-met-mollie/doneren-met-mollie.php' ) && get_option('dmm_mollie_apikey') ) {
-			   array_push($allowed_blocks, 'acf/block-donation');
-			}
-
 		 	return $allowed_blocks;
 
 		 }

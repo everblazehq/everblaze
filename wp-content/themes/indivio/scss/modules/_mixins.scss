@@ -1,0 +1,74 @@
+
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -ms-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+@mixin transform($args...) {
+    -webkit-transform: $args;
+    -moz-transform: $args;
+    -ms-transform: $args;
+    -o-transform: $args;
+    transform: $args;
+}
+
+@mixin transform-origin($args...) {
+    -webkit-transform-origin: $args;
+    -moz-transform-origin: $args;
+    -ms-transform-origin: $args;
+    -o-transform-origin: $args;
+    transform-origin: $args;
+}
+
+@mixin animation($args...) {
+    -webkit-animation: $args;
+    -moz-animation: $args;
+    -ms-animation: $args;
+    -o-animation: $args;
+    animation: $args;
+}
+
+@mixin box-shadow($args...) {
+    -webkit-box-shadow: $args;
+    -moz-box-shadow: $args;
+    box-shadow: $args;
+}
+
+@mixin linear-gradient($args...) {
+    background-image: -webkit-linear-gradient($args);
+    background-image: -moz-linear-gradient($args);
+    background-image: -ms-linear-gradient($args);
+    background-image: -o-linear-gradient($args);
+    background-image: linear-gradient($args);
+}
+
+@mixin center {
+    top: 50%;
+    left: 50%;
+    @include transform(translate(-50%, -50%));
+}
+
+@mixin center-v {
+    top: 50%;
+    @include transform(translateY(-50%));
+}
+
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+// Clear after (not all clearfix need this also)
+@mixin clearfix-after() {
+	clear: both;
+}
+
+// Column width with margin
+@mixin column-width($numberColumns: 3) {
+	width: map-get( $columns, $numberColumns ) - ( ( $columns__margin * ( $numberColumns - 1 ) ) / $numberColumns );
+}

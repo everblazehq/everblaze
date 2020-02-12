@@ -1,0 +1,21 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "35.204.252.203",
+  "port": "55000",
+  "target": "/home/5cee4b05f911c80f5081c28d/public_html/wp-content/themes/indivio",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "5cee4b05f911c80f5081c28d",
+  "password": "5zdFC89EXZgEmw",
+  "watch": [
+    "/style.css"
+  ],
+  "transport": "scp"
+}

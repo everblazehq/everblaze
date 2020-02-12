@@ -1,0 +1,77 @@
+.eb-footer {
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    background: $color-black-d-40;
+    @media (min-width: $screen-md) {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 64px;
+        padding: 0 0 20px;
+        margin-top: 0;
+        @include box-shadow(-5px 0 40px rgba(0, 0, 0, 0.3));
+        @include flexbox;
+        @include flex-direction(column);
+        @include justify-content(flex-end);
+    }
+    .eb-socials {
+        width: 100%;
+        @media (min-width: $screen-md) {
+            @include flex-direction(column);
+            @include justify-content(flex-end);
+        }
+        a {
+            position: relative;
+            padding: 0 18px;
+            @media (min-width: $screen-md) {
+                padding: 20px 0;
+                font-size: 1.6rem;
+            }
+        }
+    }
+    .button {
+        display: none;
+        @media (min-width: $screen-md) {
+            position: absolute;
+            top: 0;
+            right: 50%;
+            display: inline-block;
+            padding: 15px 40px;
+            white-space: nowrap;
+            @include transform(rotate(-90deg));
+            @include transform-origin(center right);
+        }
+    }
+    .admin-bar & {
+        @media (min-width: $screen-md) {
+            top: 32px;
+        }
+    }
+}
+
+.live-bullet {
+    position: absolute;
+    z-index: 1;
+    top: 12px;
+    right: -8px;
+    display: none;
+    width: 6px;
+    height: 6px;
+    background: $color-success;
+    border-radius: 50%;
+    @media (min-width: $screen-md) {
+        display: block;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 6px;
+        height: 6px;
+        background: $color-success;
+        border-radius: 50%;
+        animation: liveSignal 3s ease-in-out infinite;
+    }
+}

@@ -1,0 +1,115 @@
+.acf-settings-wrap {
+    position: relative;
+    margin-top: 20px !important;
+    padding: 20px 30px;
+    background: #fff;
+}
+.acf-settings-wrap h1 {
+    position: relative;
+    padding: 0 0 15px;
+}
+.acf-settings-wrap h1::before {
+    content: url("data:image/svg+xml; utf8, %3Csvg%20width%3D%2230px%22%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2054.24%2072%27%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill%3A%23ea2027%3B%7D%3C%2Fstyle%3E%3C%2Fdefs%3E%3Ctitle%3EAsset%208%3C%2Ftitle%3E%3Cg%20id%3D%27Layer_2%27%20data-name%3D%27Layer%202%27%3E%3Cg%20id%3D%27Layer_1-2%27%20data-name%3D%27Layer%201%27%3E%3Cpath%20class%3D%27cls-1%27%20d%3D%27M27%2C0%2C2.61%2C37a12.73%2C12.73%2C0%2C0%2C0-.74%2C1.12h0a13.39%2C13.39%2C0%2C0%2C0%2C2%2C16.29L17.57%2C68.09a13.43%2C13.43%2C0%2C0%2C0%2C19%2C0L50.29%2C54.32A13.48%2C13.48%2C0%2C0%2C0%2C53%2C39.06h0l-.12-.24-.14-.29L41.93%2C17l-2.29%2C6.48ZM44.69%2C38.91l1.65%2C1.64a6.06%2C6.06%2C0%2C0%2C1%2C0%2C8.56l-15%2C15a6.05%2C6.05%2C0%2C0%2C1-8.56%2C0L7.9%2C49.21a6.05%2C6.05%2C0%2C0%2C1%2C0-8.56l2.36-2.36%2C12.61-12.6a6.06%2C6.06%2C0%2C0%2C1%2C8.56%2C0Z%27%2F%3E%3Cpath%20class%3D%27cls-1%27%20d%3D%27M38.07%2C43.07%2C27.18%2C54l-3.27-3.27%2C9.82-9.82A2%2C2%2C0%2C0%2C0%2C30.85%2C38L21%2C47.8l-3-3L28.85%2C34a2%2C2%2C0%2C0%2C0%2C0-2.88l-.23-.23a2%2C2%2C0%2C0%2C0-2.88%2C0L12.81%2C43.81a2%2C2%2C0%2C0%2C0%2C0%2C2.88l12.5%2C12.5a2%2C2%2C0%2C0%2C0%2C2.88%2C0l13-13a2.21%2C2.21%2C0%2C0%2C0-3.12-3.12Z%27%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px 12px 0;
+}
+.acf-settings-wrap h1::after {
+    content: '';
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    left: -30px;
+    display: block;
+    height: 2px;
+    background: #f6f6f6;
+}
+.acf-settings-wrap #poststuff {
+    padding-top: 20px !important;
+}
+.acf-settings-wrap .postbox button,
+.acf-settings-wrap .postbox h2 {
+    display: none !important;
+}
+.acf-settings-wrap #poststuff #post-body.columns-2 {
+    width: 100% !important;
+}
+.acf-settings-wrap #postbox-container-1 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    float: none !important;
+    margin-right: 0 !important;
+    width: auto !important;
+}
+.acf-settings-wrap #poststuff #post-body.columns-2 #side-sortables {
+    width: auto !important;
+    min-height: 0 !important;
+}
+.acf-settings-wrap .postbox-container {
+    float: none !important;
+}
+.acf-settings-wrap .postbox {
+    border: 0 !important;
+    box-shadow: none !important;
+    min-width: 0 !important;
+}
+.acf-settings-wrap #major-publishing-actions {
+    border-top: 0 !important;
+    background: none !important;
+    padding: 0 !important;
+}
+.acf-settings-wrap .acf-tab-group {
+    padding: 0 !important;
+    border-bottom: 0 !important;
+}
+.acf-settings-wrap .acf-tab-group li {
+    margin: 0 !important;
+}
+.acf-settings-wrap .acf-tab-group li a {
+    padding: 0 15px 20px !important;
+    border: 0 !important;
+    background: #fff !important;
+}
+.acf-settings-wrap .acf-tab-group li.active a {
+    color: #0085ba !important;
+    -webkit-box-shadow: 0 -2px 0 0 #0085ba inset;
+    -moz-box-shadow: 0 -2px 0 0 #0085ba inset;
+    box-shadow: 0 -2px 0 0 #0085ba inset;
+}
+.acf-settings-wrap .acf-postbox.seamless>.acf-fields>.acf-tab-wrap {
+    position: relative;
+    margin-bottom: 20px !important;
+    padding: 0 !important;
+}
+.acf-settings-wrap .acf-postbox.seamless>.acf-fields>.acf-tab-wrap::after {
+    content: '';
+    position: absolute;
+    right: -18px;
+    bottom: -2px;
+    left: -18px;
+    display: block;
+    height: 2px;
+    background: #f6f6f6;
+}
+.acf-settings-wrap .acf-field-group > .acf-label {
+    margin-bottom: 0;
+    padding: 10px 15px;
+    font-size: 11px;
+    text-transform: uppercase;
+    background: #fafafa;
+    border-top: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+}
+.acf-settings-wrap .acf-admin-notice {
+    position: absolute !important;
+    top: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 200px;
+}
+.acf-settings-wrap .acf-admin-notice.notice-success {
+    background: #F8FFFB;
+}

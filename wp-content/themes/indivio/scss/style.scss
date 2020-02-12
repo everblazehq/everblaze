@@ -1,0 +1,38 @@
+/*
+	Theme Name: Indivio
+	Theme URI: http://indivio.everblaze.nl
+	Description: Indivio is a theme for the (individual) gamer that wants to present himself professionally.
+	Version: 1.0.0
+	Author: Everblaze
+	Author URI: https://everblaze.nl
+	Tags: eSports, Gaming, Individual
+    Text Domain: indivio
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+// Third-party
+@import "vendor/flexbox";
+
+// Modules and Variables
+@import "partials/base";
+
+// Partials
+@import "partials/animations";
+@import "partials/blocks/all";
+@import "partials/blog";
+@import "partials/buttons";
+@import "partials/dialog";
+@import "partials/footer";
+@import "partials/form";
+@import "partials/grid";
+@import "partials/header";
+@import "partials/matches";
+@import "partials/other";
+@import "partials/posts";
+@import "partials/profile";
+@import "partials/typography";
+
+// Helpers
+@import "partials/helpers";

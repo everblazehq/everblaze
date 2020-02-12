@@ -1,0 +1,63 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    font-size: 15px;
+    font-family: $raleway;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    line-height: 1.2;
+    color: #fff;
+}
+
+h1 {
+    font-size: 1.2rem;
+    @media (min-width: $screen-md) {
+        font-size: 3rem;
+    }
+}
+
+h2 {
+    font-size: 1.2rem;
+    @media (min-width: $screen-md) {
+        font-size: 2.4rem;
+    }
+}
+
+h3 {
+    font-size: 1.06666rem;
+    + p {
+        margin-top: 15px;
+    }
+    @media (min-width: $screen-md) {
+        font-size: 1.6rem;
+    }
+}
+
+h4 {
+    font-size: 1rem;
+    + p {
+        margin-top: 15px;
+    }
+}
+
+p {
+    margin: 0;
+    line-height: 1.8;
+    font-size: 1rem;
+    + p {
+        margin-top: 15px;
+    }
+}
+
+a {
+    color: $color-primary;
+    text-decoration: none;
+    @include transition(color .2s ease-in-out);
+}

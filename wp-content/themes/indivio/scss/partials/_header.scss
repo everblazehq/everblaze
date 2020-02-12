@@ -1,0 +1,330 @@
+.eb-nav {
+    position: fixed;
+    z-index: 9900;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    background: $color-black-d-40;
+    @media (min-width: $screen-md) {
+        max-width: 58px;
+        bottom: 0;
+        overflow-x: hidden;
+        @include transition(max-width .3s .2s ease-in-out);
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        padding: 25px 0 0 40px;
+        margin-top: 0;
+        list-style: none;
+        background: $color-black-d-40;
+        border-top: 1px solid transparent;
+        @include transform(translateX(100%));
+        @include transition(transform .5s ease-in-out, border-color .5s);
+        @media (min-width: $screen-md) {
+            position: relative;
+            top: 0 !important;
+            height: auto;
+            background: none;
+            border-top: 0;
+            opacity: 0;
+            @include transform(translateX(0));
+            @include transition(transform .5s ease-in-out, border-color .5s .3s, opacity .3s);
+        }
+        li {
+            position: relative;
+            padding: 15px 0;
+            opacity: 0;
+            @include transform(translateX(30px));
+            @include transition(transform .5s, opacity .5s);
+            @media (min-width: $screen-md) {
+                @include transform(translateX(-100%));
+            }
+            @for $i from 1 to 15 {
+                &:nth-child(#{$i}) {
+                    transition-delay: $i * .05s;
+                }
+            }
+            &.current_page_item {
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    right: 0;
+                    left: 0;
+                    display: block;
+                    height: 2px;
+                    opacity: 0;
+                    background: $color-primary;
+                    @include transform(translate(100%, -50%));
+                    @include transition(opacity .5s ease-in-out, transform 1s ease-in-out);
+                }
+                a {
+                    color: #fff;
+                }
+            }
+        }
+        a {
+            position: relative;
+            z-index: 1;
+            display: inline-block;
+            padding-right: 30px;
+            color: $color-text;
+            font-size: 1.2rem;
+            font-weight: 700;
+            background: $color-black-d-40;
+            @include transition(color .3s);
+            @media (min-width: $screen-md) {
+                max-width: 220px;
+            }
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    &.toggled {
+        @media (min-width: $screen-md) {
+            max-width: 300px;
+            @include transition(max-width .3s ease-in-out);
+        }
+        ul {
+            border-top: 1px solid $color-black-w-20;
+            @include transform(translateX(0));
+            @include transition(transform .5s ease-in-out, border-color .5s .3s);
+            @media (min-width: $screen-md) {
+                border-top: 0;
+                opacity: 1;
+                @include transition(transform .5s ease-in-out, border-color .5s .3s, opacity .3s);
+            }
+        }
+        li {
+            opacity: 1;
+            @include transform(translateX(0));
+            @include transition(transform .5s, opacity .5s);
+            &.current_page_item::after {
+                opacity: 1;
+                @include transform(translate(0, -50%));
+                @include transition(opacity .5s .5s ease-in-out, transform .5s .5s ease-in-out);
+            }
+        }
+        .nav-logo {
+            @media (min-width: $screen-md) {
+                bottom: 20px;
+                left: 20px;
+                @include transform(rotate(0));
+            }
+        }
+        .nav-title {
+            @media (min-width: $screen-md) {
+                bottom: 20px;
+                left: 20px;
+                @include transform(rotate(0));
+            }
+        }
+    }
+    .admin-bar & {
+        top: 46px;
+        @media (min-width: $screen-sm) {
+            top: 32px;
+        }
+        ul {
+            margin-top: 46px;
+            @media (min-width: $screen-sm) {
+                margin-top: 0;
+            }
+        }
+    }
+    .twitch-label {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+        padding: 4px 6px;
+        color: #fff;
+        font-size: 0.6rem;
+        text-transform: uppercase;
+        background: #6441a5;
+        border-radius: 3px;
+        @media (min-width: $screen-md) {
+            display: none;
+        }
+    }
+}
+
+.nav-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+    max-width: 260px;
+    max-height: 40px;
+    @media (min-width: $screen-md) {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        max-width: auto;
+        margin-left: 0;
+        @include transform(rotate(-90deg));
+        @include transform-origin(left center);
+        @include transition(transform .5s ease-in-out, bottom .5s ease-in-out, left .5s ease-in-out);
+    }
+}
+
+.nav-title {
+    display: inline-block;
+    margin-left: 20px;
+    color: #fff;
+    font-weight: 700;
+    @media (min-width: $screen-md) {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: 0;
+        @include transform(rotate(-90deg));
+        @include transform-origin(left center);
+        @include transition(transform .5s ease-in-out, bottom .5s ease-in-out, left .5s ease-in-out);
+    }
+}
+
+.nav-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 20px;
+    height: 21px;
+    margin-right: 10px;
+    @include transform(translateY(-50%));
+    cursor: pointer;
+    @media (min-width: $screen-md) {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin: 0 0 0 19px;
+        @include transform(translateY(0));
+    }
+    &.toggled {
+        .bar-one {
+            margin-top: 5px;
+            background: #fff;
+            @include transform(rotate(45deg) translate(2px, 2px));
+        }
+        .bar-two {
+          opacity: 0;
+        }
+        .bar-three {
+            margin-top: -2px;
+            background: #fff;
+            @include transform(rotate(-45deg) translate(3px, -3px));
+        }
+    }
+    .bar-one,
+    .bar-two,
+    .bar-three {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #fff;
+        opacity: 1;
+        @include transition(transform .3s ease-in-out, opacity .3s ease-in-out, margin .3s ease-in-out);
+    }
+    .bar-two,
+    .bar-three {
+        margin-top: 5px;
+    }
+}
+
+.eb-page-image {
+    position: relative;
+    width: 100%;
+    padding: 40px 0;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media (min-width: $screen-sm) {
+        padding: 80px 0;
+    }
+    @media (min-width: $screen-md) {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 58px;
+        width: 120px;
+        margin-top: 0 !important;
+        margin-bottom: 0;
+        h1 {
+            opacity: 0;
+        }
+    }
+    h1 {
+        position: relative;
+        z-index: 1;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        background: rgba(0, 0, 0, 0.7);
+    }
+    .page-template-page-profile &,
+    .home & {
+        display: none;
+        @media (min-width: $screen-md) {
+            display: block;
+            width: 300px;
+        }
+        @media (min-width: $screen-lg) {
+            width: 400px;
+        }
+        &::after {
+            background: none;
+        }
+    }
+}
+
+.eb-page-title {
+    display: none;
+    @media (min-width: $screen-md) {
+        position: relative;
+        display: block;
+        margin: 90px 0;
+        line-height: 1;
+        color: #fff;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    &--shadow {
+        display: none;
+        @media (min-width: $screen-md) {
+            position: absolute;
+            display: block;
+            z-index: -1;
+            top: 50%;
+            left: -60px;
+            font-size: 10rem;
+            opacity: 0.05;
+            white-space: nowrap;
+            @include transform(translateY(-50%));
+        }
+    }
+    .page-template-page-profile &,
+    .home & {
+        @media (min-width: $screen-md) {
+            display: none;
+        }
+        .page-template-page-profile &--shadow,
+        .home &--shadow {
+            @media (min-width: $screen-md) {
+                display: none;
+            }
+        }
+    }
+}
+
+.test {
+    display: none;
+}

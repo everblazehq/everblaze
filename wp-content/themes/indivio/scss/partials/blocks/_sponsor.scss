@@ -1,0 +1,50 @@
+.eb-block-sponsor {
+    height: 100%;
+    padding-top: 30px;
+    text-align: center;
+    @include flexbox;
+    @include flex-direction(column);
+    &-content {
+        height: 100%;
+        background: $color-black-d-40;
+        @include flexbox;
+        @include flex-direction(column);
+    }
+    &--image {
+        padding: 20px;
+        text-align: center;
+        background: $color-black;
+        img {
+            display: inline-block;
+            max-height: 100px;
+        }
+    }
+    &--info {
+        padding: 30px 20px;
+        @include flex-grow(1);
+        h4 {
+            text-align: center;
+        }
+        p {
+            margin-top: 15px;
+        }
+    }
+    &--links {
+        margin: 20px -20px 0 -20px;
+        padding: 20px 20px 0;
+        border-top: 1px solid $color-black-w-20;
+        a {
+            padding: 0 15px;
+            font-size: 1rem;
+        }
+        .button {
+            margin-top: 20px;
+        }
+    }
+    .button {
+        z-index: 1;
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 0.6rem;
+    }
+}

@@ -1,0 +1,230 @@
+.eb-block-image {
+    h3 + img {
+        margin-top: 20px;
+    }
+}
+
+.eb-block-info {
+    padding: 20px;
+    margin-top: 10px;
+    background: $color-black-d-40;
+    &--title {
+        display: block;
+        color: $color-primary;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    p {
+        margin-top: 5px;
+        color: #fff;
+        font-weight: 700;
+    }
+    &.country {
+        img,
+        p {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        img {
+            margin-top: 2px;
+        }
+        p {
+            margin-left: 5px;
+        }
+    }
+}
+
+.eb-block-giphy {
+    &--info {
+        &_label,
+        &_title {
+            display: inline;
+            vertical-align: middle;
+        }
+        &_label {
+            padding: 5px 10px;
+            color: #fff;
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            background: $color-black;
+            border-radius: 12px;
+        }
+        &_title {
+            margin-left: 5px;
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+    &--gif {
+        margin-top: 10px;
+    }
+}
+
+.eb-block-sponsor {
+    height: 100%;
+    padding-top: 30px;
+    text-align: center;
+    @include flexbox;
+    @include flex-direction(column);
+    &-content {
+        height: 100%;
+        background: $color-black-d-40;
+        @include flexbox;
+        @include flex-direction(column);
+    }
+    &--image {
+        padding: 20px;
+        text-align: center;
+        background: $color-black;
+        img {
+            display: inline-block;
+            max-height: 100px;
+        }
+    }
+    &--info {
+        padding: 30px 20px;
+        @include flex-grow(1);
+        h4 {
+            text-align: center;
+        }
+        p {
+            margin-top: 15px;
+        }
+    }
+    &--links {
+        margin: 20px -20px 0 -20px;
+        padding: 20px 20px 0;
+        border-top: 1px solid $color-black-w-20;
+        a {
+            padding: 0 15px;
+            font-size: 1rem;
+        }
+        .button {
+            margin-top: 20px;
+        }
+    }
+    .button {
+        z-index: 1;
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 0.6rem;
+    }
+}
+
+.col.list-view {
+    max-width: 100% !important;
+    @include flex-basis(100% !important);
+    .eb-block-sponsor {
+        @media (min-width: $screen-md) {
+            &-content {
+                @include flex-direction(row);
+            }
+            &--image {
+                width: 25%;
+                @include flex-shrink(0);
+                img {
+                    position: relative;
+                    @include center-v;
+                }
+            }
+            &--info,
+            &--info h4 {
+                text-align: left;
+            }
+            &--info {
+                padding: 30px;
+            }
+            &--links {
+                margin: 30px -30px 0;
+                padding: 30px 30px 0;
+                text-align: right;
+                .eb-socials {
+                    display: inline-block;
+                    vertical-align: middle;
+                    a {
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                }
+                .button {
+                    margin: 0 0 0 30px;
+                }
+            }
+        }
+    }
+}
+
+.eb-list-item {
+    margin-top: 20px;
+    @include flexbox;
+    @include align-items(center);
+    @media (min-width: $screen-md) {
+        margin-top: 30px;
+    }
+    &--icon {
+        width: 41px;
+        height: 41px;
+        line-height: 41px;
+        font-size: 1rem;
+        text-align: center;
+        border: 1px solid $color-black-w-20;
+        border-radius: 50%;
+        svg path {
+            fill: #fff;
+        }
+    }
+    &--info {
+        margin-left: 10px;
+        &_one,
+        &_two {
+            font-size: 0.8rem;
+        }
+        &_title {
+            color: #fff;
+            font-weight: 700;
+        }
+        &_two {
+            &::before {
+                content: ' - '
+            }
+        }
+    }
+}
+
+.eb-socials {
+    @include flexbox;
+    @include justify-content(center);
+    @include align-items(center);
+    a {
+        display: block;
+        font-size: 1.2rem;
+        color: #fff;
+        @include transition(color .3s);
+        &.twitch {
+            &:hover {
+                color: #6441a5;
+            }
+        }
+        &.facebook {
+            &:hover {
+                color: #3b5998;
+            }
+        }
+        &.twitter {
+            &:hover {
+                color: #1da1f2;
+            }
+        }
+        &.instagram {
+            &:hover {
+                color: #fd1d1d;
+            }
+        }
+        &.youtube {
+            &:hover {
+                color: #ff0000;
+            }
+        }
+    }
+}

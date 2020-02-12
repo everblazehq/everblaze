@@ -1,0 +1,25 @@
+/*
+	Theme Name: Everblaze
+	Theme URI: https://staging.everblaze.gg
+	Description: The Everblaze Website
+	Version: 1.0.0
+	Author: Everblaze
+	Author URI: https://staging.everblaze.gg
+	Tags: Everblaze
+    Text Domain: everblaze
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+// Third-party
+@import "vendor/flexbox";
+
+// Modules and Variables
+@import "partials/base";
+
+// Partials
+@import "partials/animations";
+@import "partials/grid";
+@import "partials/page";
+@import "partials/typography";

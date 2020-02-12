@@ -1,0 +1,36 @@
+.eb-list-item {
+    margin-top: 20px;
+    @include flexbox;
+    @include align-items(center);
+    @media (min-width: $screen-md) {
+        margin-top: 30px;
+    }
+    &--icon {
+        width: 41px;
+        height: 41px;
+        line-height: 41px;
+        font-size: 1rem;
+        text-align: center;
+        border: 1px solid $color-black-w-20;
+        border-radius: 50%;
+        svg path {
+            fill: #fff;
+        }
+    }
+    &--info {
+        margin-left: 10px;
+        &_one,
+        &_two {
+            font-size: 0.8rem;
+        }
+        &_title {
+            color: #fff;
+            font-weight: 700;
+        }
+        &_two {
+            &::before {
+                content: ' - '
+            }
+        }
+    }
+}

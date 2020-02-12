@@ -1,0 +1,1120 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2019-08-05 15:05+0200\n"
+"PO-Revision-Date: 2019-08-05 15:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-KeywordsList: __;esc_html;esc_html_e;esc_html( _nx;ucwords\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: themes/indivio\n"
+"X-Poedit-SearchPath-1: plugins/matches.php\n"
+"X-Poedit-SearchPath-2: plugins/sponsors.php\n"
+"X-Poedit-SearchPathExcluded-0: themes/indivio/node_modules\n"
+
+#: plugins/matches.php:15 plugins/matches.php:17 plugins/matches.php:63
+#: themes/indivio/template-parts/block/info_faceit.php:24
+msgid "Matches"
+msgstr "Wedstrijden"
+
+#: plugins/matches.php:16
+msgid "Match"
+msgstr "Wedstrijd"
+
+#: plugins/matches.php:18
+msgid "View match"
+msgstr "Bekijk wedstrijd"
+
+#: plugins/matches.php:19
+msgid "Add new match"
+msgstr "Nieuwe wedstrijd toevoegen"
+
+#: plugins/matches.php:20
+msgid "Add match"
+msgstr "Wedstrijd toevoegen"
+
+#: plugins/matches.php:21
+msgid "Edit match"
+msgstr "Wedstrijd wijzigen"
+
+#: plugins/matches.php:22
+msgid "Update match"
+msgstr "Wedstrijd updaten"
+
+#: plugins/matches.php:23
+msgid "Search match"
+msgstr "Wedstrijd zoeken"
+
+#: plugins/matches.php:24
+msgid "Match not found"
+msgstr "Wedstrijd niet gevonden"
+
+#: plugins/matches.php:35 plugins/matches.php:37
+msgid "Opponents"
+msgstr "Tegenstanders"
+
+#: plugins/matches.php:36 themes/indivio/inc/acf/acf-fields.php:993
+#: themes/indivio/inc/acf/acf-fields.php:1131
+msgid "Opponent"
+msgstr "Tegenstander"
+
+#: plugins/matches.php:38
+msgid "View opponent"
+msgstr "Bekijk tegenstander"
+
+#: plugins/matches.php:39
+msgid "Add new opponent"
+msgstr "Nieuwe tegenstander toevoegen"
+
+#: plugins/matches.php:40
+msgid "Add opponent"
+msgstr "Tegenstander toevoegen"
+
+#: plugins/matches.php:41
+msgid "Edit opponent"
+msgstr "Tegenstander wijzigen"
+
+#: plugins/matches.php:42
+msgid "Update opponent"
+msgstr "Tegenstander updaten"
+
+#: plugins/matches.php:43
+msgid "Search opponent"
+msgstr "Tegenstander zoeken"
+
+#: plugins/matches.php:44
+msgid "Opponent not found"
+msgstr "Tegenstander niet gevonden"
+
+#: plugins/matches.php:64
+msgid "A block to list all matches."
+msgstr "Een blok om alle wedstrijden te tonen."
+
+#: plugins/sponsors.php:15 plugins/sponsors.php:17 plugins/sponsors.php:43
+#: themes/indivio/inc/acf/acf-fields.php:735
+msgid "Sponsors"
+msgstr "Sponsoren"
+
+#: plugins/sponsors.php:16 themes/indivio/inc/acf/acf-fields.php:781
+msgid "Sponsor"
+msgstr "Sponsor"
+
+#: plugins/sponsors.php:18
+msgid "View sponsor"
+msgstr "Bekijk sponsor"
+
+#: plugins/sponsors.php:19
+msgid "Add new sponsor"
+msgstr "Nieuwe sponsor toevoegen"
+
+#: plugins/sponsors.php:20 themes/indivio/inc/acf/acf-fields.php:750
+msgid "Add sponsor"
+msgstr "Sponsor toevoegen"
+
+#: plugins/sponsors.php:21
+msgid "Edit sponsor"
+msgstr "Sponsor wijzigen"
+
+#: plugins/sponsors.php:22
+msgid "Update sponsor"
+msgstr "Sponsor updaten"
+
+#: plugins/sponsors.php:23
+msgid "Search sponsor"
+msgstr "Sponsor zoeken"
+
+#: plugins/sponsors.php:24
+msgid "Sponsor not found"
+msgstr "Sponsor niet gevonden"
+
+#: plugins/sponsors.php:44
+msgid "A block to display a sponsor."
+msgstr "Een blok om een sponsor te tonen."
+
+#: themes/indivio/404.php:16 themes/indivio/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oeps! Deze pagina kan niet gevonden worden."
+
+#: themes/indivio/comments.php:65
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: themes/indivio/inc/acf/acf-fields.php:6
+msgid "Block: Button"
+msgstr "Blok: Button"
+
+#: themes/indivio/inc/acf/acf-fields.php:10
+#: themes/indivio/inc/acf/acf-fields.php:848
+#: themes/indivio/inc/acf/blocks.php:27
+msgid "Text"
+msgstr "Tekst"
+
+#: themes/indivio/inc/acf/acf-fields.php:29
+msgid "Link"
+msgstr "Pagina"
+
+#: themes/indivio/inc/acf/acf-fields.php:64
+msgid "Block: Contact Form"
+msgstr "Blok: Contact Form"
+
+#: themes/indivio/inc/acf/acf-fields.php:68
+#: themes/indivio/inc/acf/blocks.php:64
+msgid "Contact Form"
+msgstr "Contactformulier"
+
+#: themes/indivio/inc/acf/acf-fields.php:110
+msgid "Block: Donation"
+msgstr "Blok: Donatie"
+
+#: themes/indivio/inc/acf/acf-fields.php:114
+msgid "Donation layout"
+msgstr "Donatie lay-out"
+
+#: themes/indivio/inc/acf/acf-fields.php:126
+msgid "Button with dialog"
+msgstr "Button met dialog"
+
+#: themes/indivio/inc/acf/acf-fields.php:127
+msgid "Form only"
+msgstr "Alleen formulier"
+
+#: themes/indivio/inc/acf/acf-fields.php:138
+#: themes/indivio/inc/acf/acf-fields.php:1901
+msgid "Button text"
+msgstr "Button tekst"
+
+#: themes/indivio/inc/acf/acf-fields.php:185
+msgid "Block: Info"
+msgstr "Blok: Info"
+
+#: themes/indivio/inc/acf/acf-fields.php:189
+msgid "Info Blocks"
+msgstr "Info Blokken"
+
+#: themes/indivio/inc/acf/acf-fields.php:204
+msgid "Info Block (Country)"
+msgstr "Info Blok (Land)"
+
+#: themes/indivio/inc/acf/acf-fields.php:209
+#: themes/indivio/inc/acf/acf-fields.php:516
+#: themes/indivio/inc/acf/acf-fields.php:652
+#: themes/indivio/inc/acf/acf-fields.php:829
+#: themes/indivio/inc/acf/acf-fields.php:925
+msgid "Title"
+msgstr "Titel"
+
+#: themes/indivio/inc/acf/acf-fields.php:228
+msgid "Country"
+msgstr "Land"
+
+#: themes/indivio/inc/acf/acf-fields.php:511
+msgid "Info Block"
+msgstr "Info Blok"
+
+#: themes/indivio/inc/acf/acf-fields.php:535
+msgid "Content"
+msgstr "Content"
+
+#: themes/indivio/inc/acf/acf-fields.php:557
+msgid "Add block"
+msgstr "Voeg blok toe"
+
+#: themes/indivio/inc/acf/acf-fields.php:583
+msgid "Block: List"
+msgstr "Blok: Lijst"
+
+#: themes/indivio/inc/acf/acf-fields.php:587
+msgid "Items in columns"
+msgstr "Items in kolommen"
+
+#: themes/indivio/inc/acf/acf-fields.php:606
+#: themes/indivio/inc/acf/acf-fields.php:767
+#: themes/indivio/inc/acf/blocks.php:52
+msgid "List"
+msgstr "Lijst"
+
+#: themes/indivio/inc/acf/acf-fields.php:621
+msgid "Add item"
+msgstr "Voeg item toe"
+
+#: themes/indivio/inc/acf/acf-fields.php:625
+msgid "Icon"
+msgstr "Icoon"
+
+#: themes/indivio/inc/acf/acf-fields.php:671
+msgid "Info (1)"
+msgstr "Info (1)"
+
+#: themes/indivio/inc/acf/acf-fields.php:690
+msgid "Info (2)"
+msgstr "Info (2)"
+
+#: themes/indivio/inc/acf/acf-fields.php:731
+msgid "Block: Sponsors"
+msgstr "Blok: Sponsoren"
+
+#: themes/indivio/inc/acf/acf-fields.php:754
+msgid "Layout"
+msgstr "Lay-out"
+
+#: themes/indivio/inc/acf/acf-fields.php:766
+msgid "Block"
+msgstr "Blok"
+
+#: themes/indivio/inc/acf/acf-fields.php:825
+msgid "Block: Text"
+msgstr "Blok: Tekst"
+
+#: themes/indivio/inc/acf/acf-fields.php:887
+msgid "CPT: Matches"
+msgstr "CPT: Wedstrijden"
+
+#: themes/indivio/inc/acf/acf-fields.php:891
+msgid "Match information (optional)"
+msgstr "Wedstrijd informatie (optioneel)"
+
+#: themes/indivio/inc/acf/acf-fields.php:906
+msgid "Result"
+msgstr "Score"
+
+#: themes/indivio/inc/acf/acf-fields.php:944
+msgid "Date"
+msgstr "Datum"
+
+#: themes/indivio/inc/acf/acf-fields.php:963
+msgid "Home"
+msgstr "Thuis"
+
+#: themes/indivio/inc/acf/acf-fields.php:978
+#: themes/indivio/inc/acf/acf-fields.php:1116
+msgid "Team / Player"
+msgstr "Team / Speler"
+
+#: themes/indivio/inc/acf/acf-fields.php:992
+#: themes/indivio/inc/acf/acf-fields.php:1130
+msgid "Me"
+msgstr "Ik"
+
+#: themes/indivio/inc/acf/acf-fields.php:997
+#: themes/indivio/inc/acf/acf-fields.php:1135
+msgid "Select opponent"
+msgstr "Tegenstander selecteren"
+
+#: themes/indivio/inc/acf/acf-fields.php:1027
+#: themes/indivio/inc/acf/acf-fields.php:1165
+msgid "Add custom opponent"
+msgstr "Custom tegenstander toevoegen"
+
+#: themes/indivio/inc/acf/acf-fields.php:1054
+#: themes/indivio/inc/acf/acf-fields.php:1192
+msgid "Name"
+msgstr "Naam"
+
+#: themes/indivio/inc/acf/acf-fields.php:1073
+#: themes/indivio/inc/acf/acf-fields.php:1211
+#: themes/indivio/inc/acf/acf-fields.php:1273
+#: themes/indivio/inc/acf/acf-fields.php:1727
+msgid "Avatar"
+msgstr "Avatar"
+
+#: themes/indivio/inc/acf/acf-fields.php:1101
+msgid "Away"
+msgstr "Uit"
+
+#: themes/indivio/inc/acf/acf-fields.php:1269
+msgid "CPT: Opponents"
+msgstr "CPT: Tegenstanders"
+
+#: themes/indivio/inc/acf/acf-fields.php:1327
+msgid "CPT: Sponsors"
+msgstr "CPT: Sponsoren"
+
+#: themes/indivio/inc/acf/acf-fields.php:1331
+msgid "General"
+msgstr "Algemeen"
+
+#: themes/indivio/inc/acf/acf-fields.php:1347
+#: themes/indivio/inc/acf/acf-fields.php:1703
+msgid "Logo"
+msgstr "Logo"
+
+#: themes/indivio/inc/acf/acf-fields.php:1371
+msgid "Description"
+msgstr "Omschrijving"
+
+#: themes/indivio/inc/acf/acf-fields.php:1390
+msgid "Website URL"
+msgstr "Website URL"
+
+#: themes/indivio/inc/acf/acf-fields.php:1409
+#: themes/indivio/inc/acf/acf-fields.php:2022
+msgid "Social Media"
+msgstr "Social Media"
+
+#: themes/indivio/inc/acf/acf-fields.php:1425
+#: themes/indivio/inc/acf/acf-fields.php:2038
+msgid "Twitch"
+msgstr "Twitch"
+
+#: themes/indivio/inc/acf/acf-fields.php:1444
+#: themes/indivio/inc/acf/acf-fields.php:2201
+msgid "Facebook"
+msgstr "Facebook"
+
+#: themes/indivio/inc/acf/acf-fields.php:1463
+#: themes/indivio/inc/acf/acf-fields.php:2165
+msgid "Twitter"
+msgstr "Twitter"
+
+#: themes/indivio/inc/acf/acf-fields.php:1482
+#: themes/indivio/inc/acf/acf-fields.php:2129
+msgid "Instagram"
+msgstr "Instagram"
+
+#: themes/indivio/inc/acf/acf-fields.php:1501
+#: themes/indivio/inc/acf/acf-fields.php:2093
+msgid "YouTube"
+msgstr "YouTube"
+
+#: themes/indivio/inc/acf/acf-fields.php:1550
+msgid "Customize"
+msgstr "Aanpassen"
+
+#: themes/indivio/inc/acf/acf-fields.php:1554
+msgid "Label color"
+msgstr "Label kleur"
+
+#: themes/indivio/inc/acf/acf-fields.php:1557
+msgid "Set the color for your category labels."
+msgstr "Stel de kleur in voor categorie labels."
+
+#: themes/indivio/inc/acf/acf-fields.php:1589
+msgid "Settings"
+msgstr "Instellingen"
+
+#: themes/indivio/inc/acf/acf-fields.php:1593
+msgid "Player information"
+msgstr "Speler informatie"
+
+#: themes/indivio/inc/acf/acf-fields.php:1609
+msgid "Names"
+msgstr "Namen"
+
+#: themes/indivio/inc/acf/acf-fields.php:1624
+msgid "Nickname"
+msgstr "Nickname"
+
+#: themes/indivio/inc/acf/acf-fields.php:1643
+msgid "Real name"
+msgstr "Echte naam"
+
+#: themes/indivio/inc/acf/acf-fields.php:1664
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: themes/indivio/inc/acf/acf-fields.php:1679
+msgid "Profile image"
+msgstr "Profiel afbeelding"
+
+#: themes/indivio/inc/acf/acf-fields.php:1682
+msgid "The optimal dimensions for the profile image are 675x1200 pixels."
+msgstr "De optimale dimensies voor de profiel afbeelding zijn 675x1200 pixels."
+
+#: themes/indivio/inc/acf/acf-fields.php:1753
+msgid "Elements"
+msgstr "Elementen"
+
+#: themes/indivio/inc/acf/acf-fields.php:1769
+msgid "Sidebar Button"
+msgstr "Sidebar button"
+
+#: themes/indivio/inc/acf/acf-fields.php:1784
+msgid "Show Sidebar Button"
+msgstr "Tonen van Sidebar Button"
+
+#: themes/indivio/inc/acf/acf-fields.php:1803
+msgid "Page or email"
+msgstr "Pagina of e-mail"
+
+#: themes/indivio/inc/acf/acf-fields.php:1823
+#: themes/indivio/inc/acf/acf-fields.php:1835
+msgid "Page"
+msgstr "Pagina"
+
+#: themes/indivio/inc/acf/acf-fields.php:1824
+msgid "Email"
+msgstr "E-mail"
+
+#: themes/indivio/inc/acf/acf-fields.php:1869
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: themes/indivio/inc/acf/acf-fields.php:1922
+msgid "Page image"
+msgstr "Pagina afbeelding"
+
+#: themes/indivio/inc/acf/acf-fields.php:1937
+msgid "Use profile image"
+msgstr "Gebruik profiel afbeelding"
+
+#: themes/indivio/inc/acf/acf-fields.php:1956
+msgid "Use default image"
+msgstr "Gebruik standaard afbeelding"
+
+#: themes/indivio/inc/acf/acf-fields.php:1983
+msgid "Own image"
+msgstr "Eigen afbeelding"
+
+#: themes/indivio/inc/acf/acf-fields.php:2053
+#: themes/indivio/inc/acf/acf-fields.php:2108
+#: themes/indivio/inc/acf/acf-fields.php:2144
+#: themes/indivio/inc/acf/acf-fields.php:2180
+#: themes/indivio/inc/acf/acf-fields.php:2216
+#: themes/indivio/inc/acf/acf-fields.php:2268
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: themes/indivio/inc/acf/acf-fields.php:2072
+msgid "Show live status"
+msgstr "Live status tonen"
+
+#: themes/indivio/inc/acf/acf-fields.php:2237
+msgid "Connections"
+msgstr "Koppelingen"
+
+#: themes/indivio/inc/acf/acf-fields.php:2253
+msgid "FaceIt"
+msgstr "FaceIt"
+
+#: themes/indivio/inc/acf/acf-fields.php:2287
+msgid "Game"
+msgstr "Spel"
+
+#: themes/indivio/inc/acf/acf-fields.php:2299
+msgid "CS:GO"
+msgstr "CS:GO"
+
+#: themes/indivio/inc/acf/blocks.php:12
+msgid "Everblaze"
+msgstr "Everblaze"
+
+#: themes/indivio/inc/acf/blocks.php:28
+msgid "A custom text block."
+msgstr "Een blok voor eigen tekst."
+
+#: themes/indivio/inc/acf/blocks.php:39
+msgid "Info"
+msgstr "Info"
+
+#: themes/indivio/inc/acf/blocks.php:40
+msgid "A block to display quick info."
+msgstr "Een blok om informatie te tonen."
+
+#: themes/indivio/inc/acf/blocks.php:53
+msgid "A custom list block."
+msgstr "Een blok om een lijst te maken."
+
+#: themes/indivio/inc/acf/blocks.php:65
+msgid "A block to add a Contact Form 7."
+msgstr "Een blok om een contactformulier te tonen."
+
+#: themes/indivio/inc/acf/blocks.php:77
+msgid "Donation"
+msgstr "Donatie"
+
+#: themes/indivio/inc/acf/blocks.php:78
+msgid "A block to place a donation form."
+msgstr "Een blok om een donatie formulier te tonen."
+
+#: themes/indivio/inc/acf/blocks.php:90
+msgid "Button"
+msgstr "Button"
+
+#: themes/indivio/inc/acf/blocks.php:91
+msgid "A block to display a button."
+msgstr "Een blok om een button te tonen."
+
+#: themes/indivio/inc/acf/blocks.php:103
+msgid "FaceIt: Stats"
+msgstr "FaceIt: Stats"
+
+#: themes/indivio/inc/acf/blocks.php:104
+msgid "A block to display FaceIt player statistics."
+msgstr "Een blok om FaceIt speler statistieken te tonen."
+
+#: themes/indivio/inc/acf/options.php:23 themes/indivio/inc/acf/options.php:24
+msgid "Theme Settings"
+msgstr "Thema Instellingen"
+
+#: themes/indivio/inc/acf/options.php:27
+msgid "Save settings"
+msgstr "Wijzigingen opslaan"
+
+#: themes/indivio/inc/acf/options.php:28
+msgid "Settings saved"
+msgstr "Wijzigingen zijn opgeslagen"
+
+#: themes/indivio/inc/custom-messages.php:8
+#: themes/indivio/inc/custom-messages.php:11
+msgid "Match updated."
+msgstr "Wedstrijd aangepast."
+
+#: themes/indivio/inc/custom-messages.php:12
+#, php-format
+msgid "Match restored to revision from %s"
+msgstr "Wedstrijd teruggezet naar revisie van %s"
+
+#: themes/indivio/inc/custom-messages.php:13
+msgid "Match published."
+msgstr "Wedstrijd gepubliceerd."
+
+#: themes/indivio/inc/custom-messages.php:14
+msgid "Match saved."
+msgstr "Wedstrijd opgeslagen."
+
+#: themes/indivio/inc/custom-messages.php:15
+msgid "Match submitted."
+msgstr "Wedstrijd verstuurd."
+
+#: themes/indivio/inc/custom-messages.php:16
+#, php-format
+msgid ""
+"Match scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview match</a>"
+msgstr ""
+"Wedstrijd ingepland voor: <strong>%1$s</strong>. <a target=“_blank” "
+"href=“%2$s”>Preview van wedstrijd</a>"
+
+#: themes/indivio/inc/custom-messages.php:16
+#: themes/indivio/inc/custom-messages.php:29
+#: themes/indivio/inc/custom-messages.php:42
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:17
+msgid "Match draft updated."
+msgstr "Wedstrijd concept aangepast."
+
+#: themes/indivio/inc/custom-messages.php:21
+#: themes/indivio/inc/custom-messages.php:24
+msgid "Opponent updated."
+msgstr "Tegenstander aangepast."
+
+#: themes/indivio/inc/custom-messages.php:25
+#, php-format
+msgid "Opponent restored to revision from %s"
+msgstr "Tegenstander teruggezet naar revisie van %s"
+
+#: themes/indivio/inc/custom-messages.php:26
+msgid "Opponent published."
+msgstr "Tegenstander gepubliceerd."
+
+#: themes/indivio/inc/custom-messages.php:27
+msgid "Opponent saved."
+msgstr "Tegenstander opgeslagen."
+
+#: themes/indivio/inc/custom-messages.php:28
+msgid "Opponent submitted."
+msgstr "Tegenstander verstuurd."
+
+#: themes/indivio/inc/custom-messages.php:29
+#, php-format
+msgid "Opponent scheduled for: <strong>%1$s</strong>."
+msgstr "Tegenstander ingepland voor: <strong>%1$s</strong>."
+
+#: themes/indivio/inc/custom-messages.php:30
+msgid "Opponent draft updated."
+msgstr "Tegenstander concept aangepast."
+
+#: themes/indivio/inc/custom-messages.php:34
+#: themes/indivio/inc/custom-messages.php:37
+msgid "Sponsor updated."
+msgstr "Sponsor aangepast."
+
+#: themes/indivio/inc/custom-messages.php:38
+#, php-format
+msgid "Sponsor restored to revision from %s"
+msgstr "Sponsor teruggezet naar revisie van %s"
+
+#: themes/indivio/inc/custom-messages.php:39
+msgid "Sponsor published."
+msgstr "Sponsor gepubliceerd."
+
+#: themes/indivio/inc/custom-messages.php:40
+msgid "Sponsor saved."
+msgstr "Sponsor opgeslagen."
+
+#: themes/indivio/inc/custom-messages.php:41
+msgid "Sponsor submitted."
+msgstr "Sponsor verstuurd."
+
+#: themes/indivio/inc/custom-messages.php:42
+#, php-format
+msgid "Sponsor scheduled for: <strong>%1$s</strong>."
+msgstr "Sponsor ingepland voor: <strong>%1$s</strong>."
+
+#: themes/indivio/inc/custom-messages.php:43
+msgid "Sponsor draft updated."
+msgstr "Sponsor concept aangepast."
+
+#: themes/indivio/inc/scssphp-compiler.php:12
+#, php-format
+msgid ""
+"SCSSPHP is bundled with the installed theme, please <a href=\"%s"
+"\">deactivate the installed WP-SCSS plugin</a> as it will cause a conflict."
+msgstr ""
+
+#: themes/indivio/inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+"Laat een reactie achter<span class=“screen-reader-text”> voor %s</span>"
+
+#: themes/indivio/inc/template-tags.php:99
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Wijzig <span class=“screen-reader-text”>%s</span>"
+
+#: themes/indivio/inc/widgets.php:26 themes/indivio/inc/widgets.php:47
+msgid "Recent Posts"
+msgstr "Laatste berichten"
+
+#: themes/indivio/inc/widgets.php:29
+msgid "Your site&#8217;s most recent posts"
+msgstr "De laatste berichten van je blog"
+
+#: themes/indivio/inc/widgets.php:97
+msgid "(no title)"
+msgstr ""
+
+#: themes/indivio/template-parts/better-comments.php:21
+msgid "Pingback:"
+msgstr ""
+
+#: themes/indivio/template-parts/better-comments.php:42
+#, php-format
+msgid "<strong class=\"fn\">%s</strong> &#8226; "
+msgstr ""
+
+#: themes/indivio/template-parts/better-comments.php:49
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: themes/indivio/template-parts/better-comments.php:54
+msgid "(Edit)"
+msgstr "(Wijzig)"
+
+#: themes/indivio/template-parts/block/info_faceit.php:4
+msgid "FaceIt Statistics"
+msgstr "FaceIt statistieken"
+
+#: themes/indivio/template-parts/block/info_faceit.php:30
+msgid "Win Rate %"
+msgstr "Winst %"
+
+#: themes/indivio/template-parts/block/info_faceit.php:36
+msgid "Longest Win Streak"
+msgstr "Langste Win Streak"
+
+#: themes/indivio/template-parts/block/info_faceit.php:42
+msgid "Recent Results"
+msgstr "Recente resultaten"
+
+#: themes/indivio/template-parts/block/info_faceit.php:50
+msgid "L"
+msgstr "V"
+
+#: themes/indivio/template-parts/block/info_faceit.php:52
+msgid "W"
+msgstr "W"
+
+#: themes/indivio/template-parts/block/info_faceit.php:62
+msgid "Average K/D Ratio"
+msgstr "Gemiddelde K/D Ratio"
+
+#: themes/indivio/template-parts/block/info_faceit.php:68
+msgid "Average Headshots %"
+msgstr "Gemiddelde headshots %"
+
+#: themes/indivio/template-parts/block/matches.php:4
+msgid "List of all matches"
+msgstr "Lijst met alle wedstrijden"
+
+#: themes/indivio/template-parts/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Klaar om je eerste bericht te publiceren? <a href=“%1$s”>Begin direct</a>."
+
+#: themes/indivio/template-parts/content-none.php:31
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Sorry, maar er is niets gevonden. Probeer het nog een keer."
+
+#: themes/indivio/template-parts/content-none.php:38
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Het lijkt erop dat er niets gevonden kan worden. Misschien dat zoeken kan "
+"helpen."
+
+#~ msgid "Color"
+#~ msgstr "Kleur"
+
+#, fuzzy
+#~| msgid "Adds a custom color to the label."
+#~ msgid "Een custom kleur toevoegen aan de label."
+#~ msgstr "Een custom kleur toevoegen aan de label."
+
+#~ msgid "Add Sponsor"
+#~ msgstr "Voeg sponsor toe"
+
+#~ msgid "Land"
+#~ msgstr "Country"
+
+#~ msgid "\"Get in touch\" Button"
+#~ msgstr "“Contact” Button"
+
+#~ msgid "Show \"Get in touch\" Button"
+#~ msgstr "Tonen van “Contact” Button"
+
+#~ msgid "Your Image"
+#~ msgstr "Eigen afbeelding"
+
+#, fuzzy
+#~| msgid "Button Text"
+#~ msgid "Button tekst"
+#~ msgstr "Button tekst"
+
+#, fuzzy
+#~| msgid "Settings saved"
+#~ msgid "Settings saved."
+#~ msgstr "Wijzigingen zijn opgeslagen"
+
+#~ msgid "Donate with Mollie"
+#~ msgstr "Doneren met Mollie"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Subscriptions"
+#~ msgstr "Omschrijving"
+
+#, fuzzy
+#~| msgid "Search match"
+#~ msgid "Search"
+#~ msgstr "Wedstrijd zoeken"
+
+#, fuzzy
+#~| msgid "Date"
+#~ msgid "Date/time"
+#~ msgstr "Datum"
+
+#, fuzzy
+#~| msgid "Email address"
+#~ msgid "Address"
+#~ msgstr "E-mailadres"
+
+#, fuzzy
+#~| msgid "Country"
+#~ msgid "Amount"
+#~ msgstr "Land"
+
+#, fuzzy
+#~| msgid "Donation"
+#~ msgid "Donation ID"
+#~ msgstr "Donatie"
+
+#, fuzzy
+#~| msgid "Save settings"
+#~ msgid "Mollie settings"
+#~ msgstr "Wijzigingen opslaan"
+
+#, fuzzy
+#~| msgid "Country"
+#~ msgid "Amounts"
+#~ msgstr "Land"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Payment description"
+#~ msgstr "Omschrijving"
+
+#, fuzzy
+#~| msgid "(Edit)"
+#~ msgid "Editor"
+#~ msgstr "(Wijzig)"
+
+#, fuzzy
+#~| msgid "Customize"
+#~ msgid "Customer ID"
+#~ msgstr "Aanpassen"
+
+#, fuzzy
+#~| msgid "Donation"
+#~ msgid "Donate"
+#~ msgstr "Donatie"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Subscription ID"
+#~ msgstr "Omschrijving"
+
+#, fuzzy
+#~| msgid "Add Item"
+#~ msgid "Add New"
+#~ msgstr "Voeg item toe"
+
+#, fuzzy
+#~| msgid "Customize"
+#~ msgid "Move Custom Field"
+#~ msgstr "Aanpassen"
+
+#, fuzzy
+#~| msgid "Page Image"
+#~ msgid "Select Image"
+#~ msgstr "Pagina afbeelding"
+
+#, fuzzy
+#~| msgid "Edit match"
+#~ msgid "Edit Image"
+#~ msgstr "Wedstrijd wijzigen"
+
+#, fuzzy
+#~| msgid "Update match"
+#~ msgid "Update Image"
+#~ msgstr "Wedstrijd updaten"
+
+#, fuzzy
+#~| msgid "Select opponent"
+#~ msgid "Select File"
+#~ msgstr "Tegenstander selecteren"
+
+#, fuzzy
+#~| msgid "Update opponent"
+#~ msgid "Update File"
+#~ msgstr "Tegenstander updaten"
+
+#, fuzzy
+#~| msgid "Match not found"
+#~ msgid "No matches found"
+#~ msgstr "Wedstrijd niet gevonden"
+
+#, fuzzy
+#~| msgid "Sponsor published."
+#~ msgid "Field group published."
+#~ msgstr "Sponsor gepubliceerd."
+
+#, fuzzy
+#~| msgid "Sponsor submitted."
+#~ msgid "Field group submitted."
+#~ msgstr "Sponsor verstuurd."
+
+#, fuzzy
+#~| msgid "Sponsor draft updated."
+#~ msgid "Field group draft updated."
+#~ msgstr "Sponsor concept aangepast."
+
+#, fuzzy
+#~| msgid "Donation"
+#~ msgid "Location"
+#~ msgstr "Donatie"
+
+#, fuzzy
+#~| msgid "Customize"
+#~ msgid "Custom Fields"
+#~ msgstr "Aanpassen"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgid "Generate PHP"
+#~ msgstr "Algemeen"
+
+#, fuzzy
+#~| msgid "Description"
+#~ msgid "Position"
+#~ msgstr "Omschrijving"
+
+#, fuzzy
+#~| msgid "Germany"
+#~ msgid "Permalink"
+#~ msgstr "Duitsland"
+
+#, fuzzy
+#~| msgid "Contact Form"
+#~ msgid "Content Editor"
+#~ msgstr "Contactformulier"
+
+#, fuzzy
+#~| msgid "Elements"
+#~ msgid "Comments"
+#~ msgstr "Elementen"
+
+#, fuzzy
+#~| msgid "Page Image"
+#~ msgid "Featured Image"
+#~ msgstr "Pagina afbeelding"
+
+#, fuzzy
+#~| msgid "Button Text"
+#~ msgid "Button Group"
+#~ msgstr "Button tekst"
+
+#, fuzzy
+#~| msgid "Customize"
+#~ msgid "Save Custom"
+#~ msgstr "Aanpassen"
+
+#, fuzzy
+#~| msgid "Color"
+#~ msgid "Color Picker"
+#~ msgstr "Kleur"
+
+#, fuzzy
+#~| msgid "Customize"
+#~ msgid "Custom:"
+#~ msgstr "Aanpassen"
+
+#, fuzzy
+#~| msgid "Images"
+#~ msgid "Image"
+#~ msgstr "Afbeeldingen"
+
+#, fuzzy
+#~| msgid "Images"
+#~ msgid "Image URL"
+#~ msgstr "Afbeeldingen"
+
+#, fuzzy
+#~| msgid "Images"
+#~ msgid "Image ID"
+#~ msgstr "Afbeeldingen"
+
+#, fuzzy
+#~| msgid "Select opponent"
+#~ msgid "Select post type"
+#~ msgstr "Tegenstander selecteren"
+
+#, fuzzy
+#~| msgid "Select opponent"
+#~ msgid "Select taxonomy"
+#~ msgstr "Tegenstander selecteren"
+
+#, fuzzy
+#~| msgid "Elements"
+#~ msgid "Placement"
+#~ msgstr "Elementen"
+
+#, fuzzy
+#~| msgid "Save settings"
+#~ msgid "Save Terms"
+#~ msgstr "Wijzigingen opslaan"
+
+#, fuzzy
+#~| msgid "Text"
+#~ msgid "Text Area"
+#~ msgstr "Tekst"
+
+#, fuzzy
+#~| msgid "Text"
+#~ msgid "On Text"
+#~ msgstr "Tekst"
+
+#, fuzzy
+#~| msgid "Text"
+#~ msgid "Off Text"
+#~ msgstr "Tekst"
+
+#, fuzzy
+#~| msgid "Username"
+#~ msgid "User"
+#~ msgstr "Gebruikersnaam"
+
+#, fuzzy
+#~| msgid "Text"
+#~ msgid "Text Only"
+#~ msgstr "Tekst"
+
+#, fuzzy
+#~| msgid "Update match"
+#~ msgid "Update"
+#~ msgstr "Wedstrijd updaten"
+
+#, fuzzy
+#~| msgid "Sponsor updated."
+#~ msgid "Post updated"
+#~ msgstr "Sponsor aangepast."
+
+#, fuzzy
+#~| msgid "View opponent"
+#~ msgid "Viewing front end"
+#~ msgstr "Bekijk tegenstander"
+
+#, fuzzy
+#~| msgid "Page Image"
+#~ msgid "Page Parent"
+#~ msgstr "Pagina afbeelding"
+
+#, fuzzy
+#~| msgid "Page Image"
+#~ msgid "Page Template"
+#~ msgstr "Pagina afbeelding"
+
+#, fuzzy
+#~| msgid "Page Image"
+#~ msgid "Page Type"
+#~ msgstr "Pagina afbeelding"
+
+#, fuzzy
+#~| msgid "Contact Form"
+#~ msgid "Post Format"
+#~ msgstr "Contactformulier"
+
+#, fuzzy
+#~| msgid "Update sponsor"
+#~ msgid "Updates"
+#~ msgstr "Sponsor updaten"
+
+#, fuzzy
+#~| msgid "Add Block"
+#~ msgid "Add Row"
+#~ msgstr "Voeg blok toe"
+
+#, fuzzy
+#~| msgid "Donation"
+#~ msgid "Caption"
+#~ msgstr "Donatie"
+
+#, fuzzy
+#~| msgid "Text"
+#~ msgid "Alt Text"
+#~ msgstr "Tekst"
+
+#, fuzzy
+#~| msgid "Sponsor updated."
+#~ msgid "Options Updated"
+#~ msgstr "Sponsor aangepast."
+
+#~ msgid "Primary"
+#~ msgstr "Hoofdkleur"
+
+#~ msgid "The Netherlands"
+#~ msgstr "Nederland"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Verenigd Koninkrijk"
+
+#~ msgid "Get in touch"
+#~ msgstr "Contact opnemen"

@@ -1,0 +1,87 @@
+.eb-dialog {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 0;
+    overflow-y: auto;
+    @media (min-width: $screen-md) {
+        padding: 60px 0;
+    }
+    &__content {
+        position: relative;
+        z-index: 1;
+        left: 5%;
+        width: 90%;
+        padding: 30px 20px;
+        background: $color-black-d-40;
+        border-radius: 5px;
+        @media (min-width: $screen-md) {
+            left: 50%;
+            width: auto;
+            max-width: 600px;
+            @include transform(translateX(-50%));
+        }
+    }
+    &__close {
+        position: absolute;
+        z-index: 9999;
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        @include transition(background .3s);
+        @media (min-width: $screen-md) {
+            width: 40px;
+            height: 40px;
+        }
+        &:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: #fff;
+            @include transform(translate(-50%, -50%));
+        }
+    }
+    &__overlay {
+        content: '';
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #000;
+        background: -moz-radial-gradient(center,ellipse cover,rgba(0,0,0,0.7) 0,rgba(0,0,0,1) 100%);
+        background: -webkit-gradient(radial,center center,0px,center center,100%,color-stop(0%,rgba(0,0,0,0.7)),color-stop(100%,rgba(0,0,0,1)));
+        background: -webkit-radial-gradient(center,ellipse cover,rgba(0,0,0,0.7) 0,rgba(0,0,0,1) 100%);
+        background: -o-radial-gradient(center,ellipse cover,rgba(0,0,0,0.7) 0,rgba(0,0,0,1) 100%);
+        background: -ms-radial-gradient(center,ellipse cover,rgba(0,0,0,0.7) 0,rgba(0,0,0,1) 100%);
+        background: radial-gradient(center,ellipse cover,rgba(0,0,0,0.7) 0,rgba(0,0,0,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66000000',endColorstr='#e6000000',GradientType=1);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        filter: alpha(opacity=50);
+        opacity: 0.9;
+    }
+    .eb-donation {
+        margin-bottom: 0;
+    }
+    .eb-form {
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="date"],
+        select,
+        textarea {
+            background: $color-black;
+            border: 1px solid $color-black;
+        }
+    }
+}

@@ -1,0 +1,64 @@
+/**
+ * Checkout
+ */
+
+ .woocommerce-checkout {
+	 h3 {
+		 margin-top: 40px;
+		 @media (min-width: $screen-md) {
+			 margin-top: 60px;
+		 }
+	 }
+ }
+@media screen and (min-width: $screen-sm) {
+	.woocommerce-billing-fields__field-wrapper {
+		@include flexbox;
+		@include flex-wrap(wrap);
+		margin-right: -15px;
+		margin-left: -15px;
+		.form-row {
+			width: 100%;
+			max-width: 100%;
+			@include flex-basis(100%);
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+		.form-row-first,
+		.form-row-last {
+			width: 50%;
+			max-width: 50%;
+			@include flex-basis(50%);
+		}
+		.form-row-last {
+			margin-top: 0;
+		}
+	}
+}
+
+#order_review {
+    margin-top: 10px;
+    @media (min-width: $screen-md) {
+        margin-top: 20px;
+    }
+}
+
+#payment {
+    margin-top: 40px;
+    @media (min-width: $screen-md) {
+        margin-top: 60px;
+    }
+    .wc_payment_methods {
+        list-style: none;
+        margin: 0 0 40px;
+        padding: 0;
+        @media (min-width: $screen-md) {
+            margin: 0 0 60px;
+        }
+    }
+    .place-order {
+        text-align: right;
+        .button {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+@-webkit-keyframes fadeDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(0);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(40px);
+    }
+}
+
+@keyframes fadeDown {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+}
+
+@-webkit-keyframes liveSignal {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(0);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(4);
+    }
+}
+
+@keyframes liveSignal {
+    0% {
+        opacity: 1;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(4);
+    }
+}

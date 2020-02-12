@@ -1,0 +1,46 @@
+.eb-blog-item--info_date {
+  color: #056AFC; }
+
+.comments-area .comment-author strong {
+  color: #056AFC; }
+
+.comments-area .comment-respond .form-submit .submit {
+  border: 2px solid #056AFC;
+  background-color: rgba(5, 106, 252, 0.5);
+  box-shadow: 0 0 0 rgba(5, 106, 252, 0.8); }
+  .comments-area .comment-respond .form-submit .submit:hover {
+    background-color: rgba(5, 106, 252, 0.55);
+    box-shadow: 0 0 30px #056AFC; }
+
+.button-primary, .button.alt {
+  border: 2px solid #056AFC;
+  background-color: rgba(5, 106, 252, 0.5);
+  box-shadow: 0 0 0 rgba(5, 106, 252, 0.8); }
+  .button-primary:hover, .button.alt:hover {
+    background-color: rgba(5, 106, 252, 0.55);
+    box-shadow: 0 0 30px #056AFC; }
+
+.eb-form input[type="submit"],
+.eb-form .wpcf7-submit {
+  border: 2px solid #056AFC;
+  background-color: rgba(5, 106, 252, 0.5);
+  box-shadow: 0 0 0 rgba(5, 106, 252, 0.8); }
+  .eb-form input[type="submit"]:hover,
+  .eb-form .wpcf7-submit:hover {
+    background-color: rgba(5, 106, 252, 0.55);
+    box-shadow: 0 0 30px #056AFC; }
+
+.eb-nav ul li.current_page_item::after {
+  background: #056AFC; }
+
+.eb-block-info--title {
+  color: #056AFC; }
+
+.eb-post__date {
+  color: #056AFC; }
+
+a {
+  color: #056AFC; }
+
+.eb-block-info__title {
+  color: #056AFC; }

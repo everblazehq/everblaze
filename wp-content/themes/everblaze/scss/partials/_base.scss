@@ -1,0 +1,14 @@
+@import "../modules/all";
+
+$saira:   'Saira', Helvetica, Arial, sans-serif;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background: $color-bg;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

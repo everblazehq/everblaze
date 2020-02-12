@@ -1,0 +1,57 @@
+.woocommerce .button {
+    color: #fff;
+    border: 2px solid #fff;
+    background: none;
+    &:hover {
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+    }
+}
+
+.button {
+    position: relative;
+    display: block;
+    padding: 20px 30px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    @include transition(opacity .2s, background .3s, box-shadow .2s);
+    &-primary,
+    &.alt {
+        color: #fff;
+        border: 2px solid $color-primary;
+    }
+    &-grey {
+        color: #fff;
+        background: rgba(175, 177, 181, 0.5);
+        border: 2px solid $color-black-w-60;
+        @include transition(background .3s);
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            opacity: 0.8;
+            box-shadow: 0 0 0 $color-black-w-60;
+        }
+        &:hover {
+            background: rgba(175, 177, 181, 0.6);
+            &::after {
+                box-shadow: 0 0 30px $color-black-w-60;
+            }
+        }
+    }
+    &--donation,
+    &--inline {
+        @media (min-width: $screen-md) {
+            display: inline-block;
+        }
+    }
+}

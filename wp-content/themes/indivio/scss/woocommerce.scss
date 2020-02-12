@@ -1,0 +1,27 @@
+/*
+Theme Name: testestsetest
+
+WooCommerce styles override
+*/
+
+/**
+ * WooCommerce color variables
+ */
+$woocommerce__color-error: #E74C3C;
+$woocommerce__color-success: #2ECC71;
+$woocommerce__color-info: #3498DB;
+
+/**
+ * Imports
+ */
+@import "variables-site/variables-site";
+@import "vendor/flexbox";
+@import "modules/all";
+
+@import "shop/tables";
+@import "shop/products";
+@import "shop/single-product";
+@import "shop/checkout";
+@import "shop/components";
+@import "shop/widgets";
+@import "shop/form";

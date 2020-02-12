@@ -1,0 +1,306 @@
+.eb-header {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    .eb-logo {
+        position: relative;
+        z-index: 2;
+        top: 32px;
+        width: 160px;
+        margin: 0 auto;
+        .cls-1 {
+            fill: #fff;
+        }
+    }
+    h1 {
+        position: absolute;
+        top: 50%;
+        right: 32px;
+        left: 32px;
+        z-index: 2;
+        text-align: center;
+        @include transform(translateY(-50%));
+        @media (min-width: $screen-lg) {
+            @include center;
+        }
+    }
+    &__line {
+        position: absolute;
+        z-index: 2;
+        bottom: -48px;
+        left: 50%;
+        @include transform(translateX(-50%));
+        p {
+            position: absolute;
+            top: -28px;
+            width: 200px;
+            font-size: .75rem;
+            text-transform: uppercase;
+            @include transform(rotate(270deg));
+            @include transform-origin(left center);
+        }
+        &-wrapper {
+            position: relative;
+            width: 1px;
+            height: 160px;
+            overflow: hidden;
+            span {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                width: 1px;
+                background: $color-dark-w20;
+                + span {
+                    z-index: 1;
+                    background: $color-primary;
+                    @include transform(translateY(-100%));
+                    -webkit-animation: scrollin 2.5s infinite forwards cubic-bezier(.23,.96,.84,.24);
+                    -moz-animation:    scrollin 2.5s infinite forwards cubic-bezier(.23,.96,.84,.24);
+                    -o-animation:      scrollin 2.5s infinite forwards cubic-bezier(.23,.96,.84,.24);
+                    animation:         scrollin 2.5s infinite forwards cubic-bezier(.23,.96,.84,.24);
+                }
+            }
+        }
+    }
+    &__bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: block;
+        background-color: $color-bg;
+        background-size: cover;
+        background-position: center;
+        video {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            -o-object-fit:cover;
+            object-fit: cover;
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: block;
+            background-color: transparentize(#000, .3);
+        }
+    }
+}
+
+.eb-about {
+    text-align: center;
+    .eb-icon {
+        width: 64px;
+        margin: 128px auto 64px;
+        .cls-4{
+            fill: $color-primary;
+        }
+    }
+    &__image {
+        position: relative;
+        z-index: 2;
+        margin-top: 160px;
+        img {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, .4);
+            box-shadow: 0 30px 40px rgba(0, 0, 0, .3);
+        }
+    }
+}
+
+.eb-services {
+    position: relative;
+    z-index: 1;
+    padding: 128px 0 160px;
+    @media (min-width: $screen-lg) {
+        padding: 128px 0 80px;
+    }
+    h2,
+    h3 {
+        position: relative;
+        z-index: 1;
+    }
+    h2 {
+        color: $color-dark;
+    }
+    h3 {
+        color: #fff;
+    }
+    h4 {
+        margin-top: 64px;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    ul {
+        margin: 16px 0 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        line-height: 1.5;
+        opacity: .75;
+    }
+    > .eb-grid {
+        position: relative;
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            top: -160px;
+            bottom: -160px;
+            left: -250%;
+            width: 500%;
+            background: $color-primary;
+            @include transition(transform 2s ease-out);
+            @media (min-width: $screen-lg) {
+                bottom: -240px;
+                @include transform(rotate(-5deg) translateX(100%));
+            }
+            @media (min-width: $screen-xxl) {
+                bottom: -280px;
+            }
+        }
+    }
+    &.is-inview {
+        > .eb-grid {
+            &::before {
+                @media (min-width: $screen-lg) {
+                    @include transform(rotate(-5deg) translateX(0));
+                }
+            }
+        }
+    }
+}
+
+.eb-projects {
+    @include flexbox;
+    @include flex-direction(column);
+    @media (min-width: $screen-lg) {
+        @include flex-direction(row);
+    }
+    &__text,
+    &__image {
+        @media (min-width: $screen-lg) {
+            width: 50%;
+        }
+    }
+    &__image {
+        width: 100%;
+        height: 50vh;
+        background-image: url('../img/indivio.jpg');
+        background-position: center;
+        background-size: cover;
+        @include order(0);
+        @media (min-width: $screen-lg) {
+            width: 50%;
+            height: auto;
+            background-image: none;
+            @include order(1);
+        }
+        img {
+            display: none;
+            @media (min-width: $screen-lg) {
+                display: block;
+            }
+        }
+    }
+    &__text {
+        padding: 80px 32px 0;
+        @include order(1);
+        @media (min-width: $screen-lg) {
+            padding: 0 60px;
+            text-align: right;
+            @include transform(translateY(96px));
+            @include order(0);
+        }
+    }
+    .eb-link {
+        display: inline-block;
+        margin-top: 32px;
+        font-size: .875rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}
+
+.eb-contact {
+    margin-top: 160px;
+    text-align: center;
+    .eb-button {
+        display: inline-block;
+        margin-top: 32px;
+        padding: 16px 32px;
+        font-size: .875rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 1px solid $color-primary;
+        border-radius: 5px;
+        background: transparentize($color-primary, .9);
+        @include box-shadow(0 0 20px transparentize($color-primary, 1));
+        @include transition(box-shadow .3s ease-in-out, background .3s ease-in-out);
+        &:hover {
+            background: transparentize($color-primary, .85);
+            @include box-shadow(0 0 20px transparentize($color-primary, .5));
+        }
+    }
+}
+
+.eb-footer {
+    padding: 160px 0 0;
+    @media (min-width: $screen-lg) {
+        padding: 160px 0 64px;
+    }
+    a,
+    p {
+        font-size: .875rem;
+        color: #fff;
+        + p {
+            margin-top: 0;
+        }
+    }
+    a {
+        display: block;
+        line-height: 1.5;
+    }
+    p {
+        opacity: 1;
+    }
+    h4 {
+        margin-bottom: 8px;
+        font-weight: 500;
+        color: $color-primary;
+    }
+    .eb-logo {
+        width: 128px;
+        .cls-1 {
+            fill: #fff;
+        }
+    }
+    .eb-privacy {
+        margin-top: 32px;
+        font-size: .75rem;
+    }
+    address {
+        margin-bottom: 16px;
+    }
+    .eb-col-25 {
+        width: 50%;
+        margin-bottom: 64px;
+        @media (min-width: $screen-lg) {
+            width: 25%;
+            margin-bottom: 0;
+        }
+    }
+}

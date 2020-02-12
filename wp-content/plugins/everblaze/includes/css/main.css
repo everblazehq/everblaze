@@ -1,0 +1,341 @@
+.post-type-matches .wrap h1.wp-heading-inline::before,
+.post-type-opponents .wrap h1.wp-heading-inline::before,
+.post-type-sponsors .wrap h1.wp-heading-inline::before,
+.post-type-forms  .wrap h1.wp-heading-inline::before {
+    content: url("data:image/svg+xml,%0A%3Csvg width='23px' height='32px' viewBox='0 0 23 32' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M2.11201861,19.3022317 C1.79680878,19.3022317 1.29157085,18.9004661 0.594613168,18.0972167 L0.594613168,18.0972167 C0.203279324,19.529758 0.00507493458,20.8675671 0,22.1106441 L0,22.1106441 L0,22.2107331 C0.0188900343,26.746033 2.62966194,30.0092159 7.83175182,32 L7.83175182,32 C7.01158601,30.2607071 6.80210398,28.2208654 7.20330576,25.8804747 L7.20330576,25.8804747 C9.17181649,27.4678015 10.1571996,28.0917365 10.1591732,27.7522798 L10.1591732,27.7522798 C8.19094441,23.3971401 8.90566437,18.9520613 12.3041789,14.4173253 L12.3041789,14.4173253 C10.9404312,17.7275923 11.0323439,20.5047093 12.5790712,22.7486762 L12.5790712,22.7486762 C17.2592886,27.6984291 17.4067437,29.4935462 17.2857911,32 L17.2857911,32 C24.0281236,26.2977471 24.8680253,19.3651045 19.8054961,11.2020723 L19.8054961,11.2020723 C18.8688887,13.7542005 18.1930766,15.0531018 17.7783417,15.0990581 L17.7783417,15.0990581 C17.4388849,10.4662068 14.123261,5.43299941 7.83175182,0 L7.83175182,0 C10.4064353,6.30645204 3.30688376,10.5908246 2.11201861,19.3022317 L2.11201861,19.3022317 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='Clip-2' fill='%23FB2407' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 5px 12px 0;
+}
+.post-type-matches .wrap h1.wp-heading-inline,
+.post-type-opponents .wrap h1.wp-heading-inline,
+.post-type-sponsors .wrap h1.wp-heading-inline,
+.post-type-forms .wrap h1.wp-heading-inline {
+    position: relative;
+    margin-right: 10px;
+    padding: 0 0 12px;
+}
+
+body[class*='everblaze_page'] .acf-settings-wrap h1 {
+    position: relative;
+    padding: 0 0 15px;
+}
+body[class*='everblaze_page'] .acf-settings-wrap h1::before {
+    content: url("data:image/svg+xml,%0A%3Csvg width='23px' height='32px' viewBox='0 0 23 32' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M2.11201861,19.3022317 C1.79680878,19.3022317 1.29157085,18.9004661 0.594613168,18.0972167 L0.594613168,18.0972167 C0.203279324,19.529758 0.00507493458,20.8675671 0,22.1106441 L0,22.1106441 L0,22.2107331 C0.0188900343,26.746033 2.62966194,30.0092159 7.83175182,32 L7.83175182,32 C7.01158601,30.2607071 6.80210398,28.2208654 7.20330576,25.8804747 L7.20330576,25.8804747 C9.17181649,27.4678015 10.1571996,28.0917365 10.1591732,27.7522798 L10.1591732,27.7522798 C8.19094441,23.3971401 8.90566437,18.9520613 12.3041789,14.4173253 L12.3041789,14.4173253 C10.9404312,17.7275923 11.0323439,20.5047093 12.5790712,22.7486762 L12.5790712,22.7486762 C17.2592886,27.6984291 17.4067437,29.4935462 17.2857911,32 L17.2857911,32 C24.0281236,26.2977471 24.8680253,19.3651045 19.8054961,11.2020723 L19.8054961,11.2020723 C18.8688887,13.7542005 18.1930766,15.0531018 17.7783417,15.0990581 L17.7783417,15.0990581 C17.4388849,10.4662068 14.123261,5.43299941 7.83175182,0 L7.83175182,0 C10.4064353,6.30645204 3.30688376,10.5908246 2.11201861,19.3022317 L2.11201861,19.3022317 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='Clip-2' fill='%23FB2407' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 10px 12px 0;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-tab-group {
+    padding: 0 !important;
+    border-bottom: 0 !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-tab-group li {
+    margin: 0 !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-tab-group li a {
+    padding: 0 15px 20px !important;
+    border: 0 !important;
+    background: none !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-tab-group li.active a {
+    color: #0085ba !important;
+    -webkit-box-shadow: 0 -2px 0 0 #0085ba inset;
+    -moz-box-shadow: 0 -2px 0 0 #0085ba inset;
+    box-shadow: 0 -2px 0 0 #0085ba inset;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-postbox.seamless>.acf-fields>.acf-tab-wrap {
+    position: relative;
+    margin-bottom: 20px !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-postbox.seamless>.acf-fields>.acf-tab-wrap::after {
+    content: '';
+    position: absolute;
+    right: 12px;
+    bottom: 0;
+    left: 12px;
+    display: block;
+    height: 2px;
+    background: #dfdfdf;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-field-group > .acf-label {
+    margin-bottom: 0;
+    padding: 10px 15px;
+    font-size: 11px;
+    text-transform: uppercase;
+    background: #fafafa;
+    border-top: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+}
+body[class*='everblaze_page'] #poststuff #post-body.columns-2 {
+    margin-right: 0;
+}
+body[class*='everblaze_page'] #post-body.columns-2 #postbox-container-1 {
+    float: none;
+    margin-top: -20px;
+    margin-right: 0;
+    width: auto;
+    order: 1;
+}
+body[class*='everblaze_page'] #poststuff #post-body.columns-2 #side-sortables {
+    width: auto;
+    min-height: auto;
+}
+body[class*='everblaze_page'] #post-body.columns-2 #postbox-container-1 #submitdiv {
+    border: 0;
+    min-width: auto;
+    margin-bottom: 0;
+    padding: 0;
+    box-shadow: none;
+    background: none;
+}
+body[class*='everblaze_page'] #post-body.columns-2 #postbox-container-1 #major-publishing-actions {
+    padding: 0;
+    border: 0;
+    background: none;
+}
+body[class*='everblaze_page'] #post-body.columns-2 #postbox-container-1 .handlediv,
+body[class*='everblaze_page'] #post-body.columns-2 #postbox-container-1 h2.hndle {
+    display: none;
+}
+body[class*='everblaze_page'] #post-body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+body[class*='everblaze_page'] #publishing-action {
+    float: none;
+    text-align: right;
+}
+body[class*='everblaze_page'] #publishing-action .spinner {
+    display: block !important;
+    float: none;
+}
+
+@media (min-width: 783px) {
+    body[class*='everblaze_page'] #publishing-action {
+        float: none;
+        text-align: left;
+    }
+}
+/*
+.post-type-matches .wrap,
+.post-type-opponents .wrap,
+.post-type-sponsors .wrap {
+    position: relative;
+    margin-top: 20px;
+    padding: 20px 30px;
+    background: #fff;
+}
+.post-type-matches .wrap h1.wp-heading-inline,
+.post-type-opponents .wrap h1.wp-heading-inline,
+.post-type-sponsors .wrap h1.wp-heading-inline {
+    position: relative;
+    padding: 0 0 12px;
+}
+.post-type-matches .wrap h1.wp-heading-inline::before,
+.post-type-opponents .wrap h1.wp-heading-inline::before,
+.post-type-sponsors .wrap h1.wp-heading-inline::before {
+    content: url("data:image/svg+xml,%0A%3Csvg width='23px' height='32px' viewBox='0 0 23 32' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M2.11201861,19.3022317 C1.79680878,19.3022317 1.29157085,18.9004661 0.594613168,18.0972167 L0.594613168,18.0972167 C0.203279324,19.529758 0.00507493458,20.8675671 0,22.1106441 L0,22.1106441 L0,22.2107331 C0.0188900343,26.746033 2.62966194,30.0092159 7.83175182,32 L7.83175182,32 C7.01158601,30.2607071 6.80210398,28.2208654 7.20330576,25.8804747 L7.20330576,25.8804747 C9.17181649,27.4678015 10.1571996,28.0917365 10.1591732,27.7522798 L10.1591732,27.7522798 C8.19094441,23.3971401 8.90566437,18.9520613 12.3041789,14.4173253 L12.3041789,14.4173253 C10.9404312,17.7275923 11.0323439,20.5047093 12.5790712,22.7486762 L12.5790712,22.7486762 C17.2592886,27.6984291 17.4067437,29.4935462 17.2857911,32 L17.2857911,32 C24.0281236,26.2977471 24.8680253,19.3651045 19.8054961,11.2020723 L19.8054961,11.2020723 C18.8688887,13.7542005 18.1930766,15.0531018 17.7783417,15.0990581 L17.7783417,15.0990581 C17.4388849,10.4662068 14.123261,5.43299941 7.83175182,0 L7.83175182,0 C10.4064353,6.30645204 3.30688376,10.5908246 2.11201861,19.3022317 L2.11201861,19.3022317 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='Clip-2' fill='%23FB2407' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10px 8px 0;
+}
+.post-type-matches .wrap .wp-heading-inline+.page-title-action,
+.post-type-opponents .wrap .wp-heading-inline+.page-title-action,
+.post-type-sponsors .wrap .wp-heading-inline+.page-title-action {
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 12px 2px;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    vertical-align: top;
+}
+.post-php.post-type-matches .wrap .wp-heading-inline+.page-title-action,
+.post-php.post-type-opponents .wrap .wp-heading-inline+.page-title-action,
+.post-php.post-type-sponsors .wrap .wp-heading-inline+.page-title-action {
+    display: none;
+}
+.post-type-matches .wp-header-end,
+.post-type-opponents .wp-header-end,
+.post-type-sponsors .wp-header-end {
+    visibility: visible;
+    margin: 0 0 30px;
+    border: 0;
+}
+.post-type-matches .wp-header-end::after,
+.post-type-opponents .wp-header-end::after,
+.post-type-sponsors .wp-header-end::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0;
+    display: block;
+    height: 2px;
+    background: #f6f6f6;
+}
+.post-type-matches .acf-field-group > .acf-label,
+.post-type-opponents .acf-field-group > .acf-label,
+.post-type-sponsors .acf-field-group > .acf-label {
+    margin-bottom: 0;
+    padding: 10px 15px;
+    font-size: 11px;
+    text-transform: uppercase;
+    background: #fafafa;
+    border-top: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+}
+#wpwrap .notice-success,
+#wpwrap .updated.notice {
+    background: #fafafa;
+}
+
+
+
+body[class*='everblaze_page'] .acf-settings-wrap {
+    position: relative;
+    margin-top: 20px !important;
+    padding: 20px 30px;
+    background: #fff;
+}
+body[class*='everblaze_page'] .acf-settings-wrap h1 {
+    position: relative;
+    padding: 0 0 15px;
+}
+body[class*='everblaze_page'] .acf-settings-wrap h1::before {
+    content: url("data:image/svg+xml,%0A%3Csvg width='23px' height='32px' viewBox='0 0 23 32' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpath d='M2.11201861,19.3022317 C1.79680878,19.3022317 1.29157085,18.9004661 0.594613168,18.0972167 L0.594613168,18.0972167 C0.203279324,19.529758 0.00507493458,20.8675671 0,22.1106441 L0,22.1106441 L0,22.2107331 C0.0188900343,26.746033 2.62966194,30.0092159 7.83175182,32 L7.83175182,32 C7.01158601,30.2607071 6.80210398,28.2208654 7.20330576,25.8804747 L7.20330576,25.8804747 C9.17181649,27.4678015 10.1571996,28.0917365 10.1591732,27.7522798 L10.1591732,27.7522798 C8.19094441,23.3971401 8.90566437,18.9520613 12.3041789,14.4173253 L12.3041789,14.4173253 C10.9404312,17.7275923 11.0323439,20.5047093 12.5790712,22.7486762 L12.5790712,22.7486762 C17.2592886,27.6984291 17.4067437,29.4935462 17.2857911,32 L17.2857911,32 C24.0281236,26.2977471 24.8680253,19.3651045 19.8054961,11.2020723 L19.8054961,11.2020723 C18.8688887,13.7542005 18.1930766,15.0531018 17.7783417,15.0990581 L17.7783417,15.0990581 C17.4388849,10.4662068 14.123261,5.43299941 7.83175182,0 L7.83175182,0 C10.4064353,6.30645204 3.30688376,10.5908246 2.11201861,19.3022317 L2.11201861,19.3022317 Z' id='path-1'%3E%3C/path%3E%3C/defs%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cmask id='mask-2' fill='white'%3E%3Cuse xlink:href='%23path-1'%3E%3C/use%3E%3C/mask%3E%3Cuse id='Clip-2' fill='%23FB2407' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/svg%3E");
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px 8px 0;
+}
+body[class*='everblaze_page'] .acf-settings-wrap h1::after {
+    content: '';
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    left: -30px;
+    display: block;
+    height: 2px;
+    background: #f6f6f6;
+}
+body[class*='everblaze_page'] .acf-settings-wrap #poststuff {
+    padding-top: 20px !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .postbox button,
+body[class*='everblaze_page'] .acf-settings-wrap .postbox h2 {
+    display: none !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap #poststuff #post-body.columns-2 {
+    width: 100% !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap #postbox-container-1 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    float: none !important;
+    margin-right: 0 !important;
+    width: auto !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap #poststuff #post-body.columns-2 #side-sortables {
+    width: auto !important;
+    min-height: 0 !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .postbox-container {
+    float: none !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .postbox {
+    border: 0 !important;
+    box-shadow: none !important;
+    min-width: 0 !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap #major-publishing-actions {
+    border-top: 0 !important;
+    background: none !important;
+    padding: 0 !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-tab-group {
+    padding: 0 !important;
+    border-bottom: 0 !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-tab-group li {
+    margin: 0 !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-tab-group li a {
+    padding: 0 15px 20px !important;
+    border: 0 !important;
+    background: #fff !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-tab-group li.active a {
+    color: #0085ba !important;
+    -webkit-box-shadow: 0 -2px 0 0 #0085ba inset;
+    -moz-box-shadow: 0 -2px 0 0 #0085ba inset;
+    box-shadow: 0 -2px 0 0 #0085ba inset;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-postbox.seamless>.acf-fields>.acf-tab-wrap {
+    position: relative;
+    margin-bottom: 20px !important;
+    padding: 0 !important;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-postbox.seamless>.acf-fields>.acf-tab-wrap::after {
+    content: '';
+    position: absolute;
+    right: -18px;
+    bottom: -2px;
+    left: -18px;
+    display: block;
+    height: 2px;
+    background: #f6f6f6;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-field-group > .acf-label {
+    margin-bottom: 0;
+    padding: 10px 15px;
+    font-size: 11px;
+    text-transform: uppercase;
+    background: #fafafa;
+    border-top: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-admin-notice {
+    position: absolute !important;
+    top: 22px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 200px;
+}
+body[class*='everblaze_page'] .acf-settings-wrap .acf-admin-notice.notice-success {
+    background: #F8FFFB;
+} */

@@ -1,0 +1,110 @@
+.eb-form {
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    input[type="submit"],
+    input[type="date"],
+    select,
+    textarea {
+        width: 100%;
+        padding: 20px;
+        color: #fff;
+        background: $color-black-d-40;
+        border: 1px solid $color-black-d-40;
+        outline: none;
+        border-radius: 5px;
+        @include transition(border .3s);
+        &:focus {
+            border: 1px solid $color-black-w-20;
+        }
+        &.wpcf7-not-valid {
+            border: 1px solid #f00;
+        }
+    }
+    input[type="checkbox"],
+    input[type="radio"] {
+        margin: 15px 5px 15px 0;
+    }
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .select-wrapper {
+        position: relative;
+        &::after {
+            content: '\f078';
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            right: 20px;
+            @include transform(translateY(-50%));
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            display: inline-block;
+            font-style: normal;
+            font-variant: normal;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+        }
+    }
+    label {
+        display: block;
+        font-weight: 700;
+        + input,
+        + textarea {
+            margin-top: 5px;
+        }
+    }
+    textarea {
+        max-width: 100%;
+        line-height: 1.8;
+    }
+    input[type="submit"],
+    .wpcf7-submit {
+        position: relative;
+        z-index: 1;
+        display: block;
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 2px solid $color-primary;
+        border-radius: 5px;
+        background-color: transparentize($color-primary, 0.5);
+        box-shadow: 0 0 0 transparentize($color-primary, 0.2);
+        cursor: pointer;
+        @include transition(background .2s, box-shadow .2s);
+        &:hover {
+            background-color: transparentize($color-primary, 0.45);
+            box-shadow: 0 0 30px $color-primary;
+        }
+    }
+}
+
+div.wpcf7-validation-errors,
+div.wpcf7-acceptance-missing {
+    color: #F1C40F;
+    margin: 0;
+    padding: 20px;
+    background: #FFFBEA;
+    border: 2px solid #F1C40F;
+}
+
+div.wpcf7-mail-sent-ok {
+    color: #2ECC71;
+    margin: 0;
+    padding: 20px;
+    background: #9AF8C2;
+    border: 2px solid #2ECC71;
+}
+
+.eb-donation {
+    .dmm_mc,
+    .dmm_nomc {
+        margin-top: 15px;
+    }
+    span > #dmm_amount {
+        margin-top: 5px;
+    }
+}

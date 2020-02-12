@@ -1,0 +1,90 @@
+@import "modules/colors";
+
+.eb-blog-item {
+    &--info {
+        &_date {
+            color: $color-primary;
+        }
+    }
+}
+
+.comments-area {
+    .comment-author {
+        strong {
+            color: $color-primary;
+        }
+    }
+    .comment-respond {
+        .form-submit {
+            .submit {
+                border: 2px solid $color-primary;
+                background-color: transparentize($color-primary, 0.5);
+                box-shadow: 0 0 0 transparentize($color-primary, 0.2);
+                &:hover {
+                    background-color: transparentize($color-primary, 0.45);
+                    box-shadow: 0 0 30px $color-primary;
+                }
+            }
+        }
+    }
+}
+
+.button {
+    &-primary,
+    &.alt {
+        border: 2px solid $color-primary;
+        background-color: transparentize($color-primary, 0.5);
+        box-shadow: 0 0 0 transparentize($color-primary, 0.2);
+        &:hover {
+            background-color: transparentize($color-primary, 0.45);
+            box-shadow: 0 0 30px $color-primary;
+        }
+    }
+}
+
+.eb-form {
+    input[type="submit"],
+    .wpcf7-submit {
+        border: 2px solid $color-primary;
+        background-color: transparentize($color-primary, 0.5);
+        box-shadow: 0 0 0 transparentize($color-primary, 0.2);
+        &:hover {
+            background-color: transparentize($color-primary, 0.45);
+            box-shadow: 0 0 30px $color-primary;
+        }
+    }
+}
+
+.eb-nav {
+    ul {
+        li {
+            &.current_page_item {
+                &::after {
+                    background: $color-primary;
+                }
+            }
+        }
+    }
+}
+
+.eb-block-info {
+    &--title {
+        color: $color-primary;
+    }
+}
+
+.eb-post {
+    &__date {
+        color: $color-primary;
+    }
+}
+
+a {
+    color: $color-primary;
+}
+
+.eb-block-info {
+    &__title {
+        color: $color-primary;
+    }
+}

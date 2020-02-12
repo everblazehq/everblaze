@@ -1,0 +1,52 @@
+.eb-block-info {
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    background: $color-black-d-40;
+    &__title {
+        display: block;
+        color: $color-primary;
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+    p {
+        margin-top: 5px;
+        color: #fff;
+        font-weight: 700;
+    }
+    &.country {
+        .famfamfam-flags,
+        p {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .famfamfam-flags {
+            margin-top: 4px;
+        }
+        p {
+            margin-left: 5px;
+        }
+    }
+    &__result {
+        display: inline-block;
+        margin-right: 5px;
+        &--loss {
+            color: $color-text;
+        }
+        &--win {
+            color: $color-success;
+        }
+    }
+    &__image {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        width: 60px;
+        opacity: 0.2;
+        @include transform(translateY(-50%));
+        @include transition(opacity .5s);
+        .eb-block-info:hover & {
+            opacity: 0.5; 
+        }
+    }
+}

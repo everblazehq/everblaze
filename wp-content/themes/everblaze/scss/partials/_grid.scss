@@ -1,0 +1,81 @@
+.eb-grid {
+    width: 100%;
+    padding-right: 32px;
+    padding-left: 32px;
+    @include flexbox;
+    @include flex-wrap(wrap);
+    @media (min-width: $screen-lg) {
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .eb-grid {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.eb-col-25 {
+    width: 100%;
+    max-width: 100%;
+    @media (min-width: $screen-lg) {
+        width: 25%;
+        max-width: 25%;
+    }
+}
+
+.eb-col-50 {
+    width: 100%;
+    max-width: 100%;
+    @media (min-width: $screen-lg) {
+        width: 50%;
+        max-width: 50%;
+    }
+}
+
+.justify-center {
+    @include justify-content(center);
+}
+
+.align-center {
+    @include align-items(center);
+}
+
+.eb-line {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    bottom: 0;
+    left: 32px;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.07);
+    @media (min-width: $screen-lg) {
+        left: 60px;
+    }
+    & + & {
+        left: 25%;
+        @include transform(translateX(16px));
+        @media (min-width: $screen-lg) {
+            @include transform(translateX(30px));
+        }
+    }
+    & + & + & {
+        left: 50%;
+        @include transform(translateX(0));
+    }
+    & + & + & + & {
+        right: 25%;
+        left: auto;
+        @include transform(translateX(-16px));
+        @media (min-width: $screen-lg) {
+            @include transform(translateX(-30px));
+        }
+    }
+    & + & + & + & + & {
+        right: 32px;
+        left: auto;
+        @include transform(translateX(0));
+        @media (min-width: $screen-lg) {
+            left: 60px;
+        }
+    }
+}

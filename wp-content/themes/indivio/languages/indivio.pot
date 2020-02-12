@@ -1,0 +1,753 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2019-08-01 09:39+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-KeywordsList: __;esc_html;esc_html_e;esc_html( _nx;'label' =>;"
+"esc_html__\n"
+"X-Poedit-SearchPath-0: themes/indivio\n"
+"X-Poedit-SearchPath-1: plugins/matches.php\n"
+"X-Poedit-SearchPath-2: plugins/sponsors.php\n"
+"X-Poedit-SearchPathExcluded-0: themes/indivio/acf-json\n"
+"X-Poedit-SearchPathExcluded-1: themes/indivio/node_modules\n"
+
+#: plugins/matches.php:15 plugins/matches.php:17 plugins/matches.php:63
+msgid "Matches"
+msgstr ""
+
+#: plugins/matches.php:16
+msgid "Match"
+msgstr ""
+
+#: plugins/matches.php:18
+msgid "View match"
+msgstr ""
+
+#: plugins/matches.php:19
+msgid "Add new match"
+msgstr ""
+
+#: plugins/matches.php:20
+msgid "Add match"
+msgstr ""
+
+#: plugins/matches.php:21
+msgid "Edit match"
+msgstr ""
+
+#: plugins/matches.php:22
+msgid "Update match"
+msgstr ""
+
+#: plugins/matches.php:23
+msgid "Search match"
+msgstr ""
+
+#: plugins/matches.php:24
+msgid "Match not found"
+msgstr ""
+
+#: plugins/matches.php:35 plugins/matches.php:37
+msgid "Opponents"
+msgstr ""
+
+#: plugins/matches.php:36 themes/indivio/inc/acf/acf-fields.php:993
+#: themes/indivio/inc/acf/acf-fields.php:1131
+msgid "Opponent"
+msgstr ""
+
+#: plugins/matches.php:38
+msgid "View opponent"
+msgstr ""
+
+#: plugins/matches.php:39
+msgid "Add new opponent"
+msgstr ""
+
+#: plugins/matches.php:40
+msgid "Add opponent"
+msgstr ""
+
+#: plugins/matches.php:41
+msgid "Edit opponent"
+msgstr ""
+
+#: plugins/matches.php:42
+msgid "Update opponent"
+msgstr ""
+
+#: plugins/matches.php:43
+msgid "Search opponent"
+msgstr ""
+
+#: plugins/matches.php:44
+msgid "Opponent not found"
+msgstr ""
+
+#: plugins/matches.php:64
+msgid "A block to list all matches."
+msgstr ""
+
+#: plugins/sponsors.php:15 plugins/sponsors.php:17 plugins/sponsors.php:43
+#: themes/indivio/inc/acf/acf-fields.php:735
+msgid "Sponsors"
+msgstr ""
+
+#: plugins/sponsors.php:16 themes/indivio/inc/acf/acf-fields.php:781
+msgid "Sponsor"
+msgstr ""
+
+#: plugins/sponsors.php:18
+msgid "View sponsor"
+msgstr ""
+
+#: plugins/sponsors.php:19
+msgid "Add new sponsor"
+msgstr ""
+
+#: plugins/sponsors.php:20 themes/indivio/inc/acf/acf-fields.php:750
+msgid "Add sponsor"
+msgstr ""
+
+#: plugins/sponsors.php:21
+msgid "Edit sponsor"
+msgstr ""
+
+#: plugins/sponsors.php:22
+msgid "Update sponsor"
+msgstr ""
+
+#: plugins/sponsors.php:23
+msgid "Search sponsor"
+msgstr ""
+
+#: plugins/sponsors.php:24
+msgid "Sponsor not found"
+msgstr ""
+
+#: plugins/sponsors.php:44
+msgid "A block to display a sponsor."
+msgstr ""
+
+#: themes/indivio/404.php:16 themes/indivio/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: themes/indivio/comments.php:35
+#, php-format
+msgid "One reply on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: themes/indivio/comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: themes/indivio/functions.php:49
+msgid "Main Menu"
+msgstr ""
+
+#: themes/indivio/functions.php:171
+msgid "Sidebar"
+msgstr ""
+
+#: themes/indivio/functions.php:173
+msgid "Add widgets here."
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:6
+msgid "Block: Button"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:10
+#: themes/indivio/inc/acf/acf-fields.php:848
+#: themes/indivio/inc/acf/blocks.php:27
+msgid "Text"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:29
+msgid "Link"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:64
+msgid "Block: Contact Form"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:68 themes/indivio/inc/acf/blocks.php:64
+msgid "Contact Form"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:110
+msgid "Block: Donation"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:114
+msgid "Donation layout"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:126
+msgid "Button with dialog"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:127
+msgid "Form only"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:138
+#: themes/indivio/inc/acf/acf-fields.php:2116
+msgid "Button text"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:185
+msgid "Block: Info"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:189
+msgid "Info Blocks"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:204
+msgid "Info Block (Country)"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:209
+#: themes/indivio/inc/acf/acf-fields.php:516
+#: themes/indivio/inc/acf/acf-fields.php:652
+#: themes/indivio/inc/acf/acf-fields.php:829
+#: themes/indivio/inc/acf/acf-fields.php:925
+msgid "Title"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:228
+msgid "Country"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:511
+msgid "Info Block"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:535
+msgid "Content"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:557
+msgid "Add block"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:583
+msgid "Block: List"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:587
+msgid "Items in columns"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:606
+#: themes/indivio/inc/acf/acf-fields.php:767
+#: themes/indivio/inc/acf/blocks.php:52
+msgid "List"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:621
+msgid "Add item"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:625
+msgid "Icon"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:671
+msgid "Info (1)"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:690
+msgid "Info (2)"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:731
+msgid "Block: Sponsors"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:754
+msgid "Layout"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:766
+msgid "Block"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:825
+msgid "Block: Text"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:887
+msgid "CPT: Matches"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:891
+msgid "Match information (optional)"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:906
+msgid "Result"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:944
+msgid "Date"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:963
+msgid "Home"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:978
+#: themes/indivio/inc/acf/acf-fields.php:1116
+msgid "Team / Player"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:992
+#: themes/indivio/inc/acf/acf-fields.php:1130
+msgid "Me"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:997
+#: themes/indivio/inc/acf/acf-fields.php:1135
+msgid "Select opponent"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1027
+#: themes/indivio/inc/acf/acf-fields.php:1165
+msgid "Add custom opponent"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1054
+#: themes/indivio/inc/acf/acf-fields.php:1192
+msgid "Name"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1073
+#: themes/indivio/inc/acf/acf-fields.php:1211
+#: themes/indivio/inc/acf/acf-fields.php:1273
+#: themes/indivio/inc/acf/acf-fields.php:1727
+msgid "Avatar"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1101
+msgid "Away"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1269
+msgid "CPT: Opponents"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1327
+msgid "CPT: Sponsors"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1331
+msgid "General"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1347
+#: themes/indivio/inc/acf/acf-fields.php:1703
+msgid "Logo"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1371
+msgid "Description"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1390
+msgid "Website URL"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1409
+#: themes/indivio/inc/acf/acf-fields.php:1753
+msgid "Social Media"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1425
+#: themes/indivio/inc/acf/acf-fields.php:1769
+msgid "Twitch"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1444
+#: themes/indivio/inc/acf/acf-fields.php:1932
+msgid "Facebook"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1463
+#: themes/indivio/inc/acf/acf-fields.php:1896
+msgid "Twitter"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1482
+#: themes/indivio/inc/acf/acf-fields.php:1860
+msgid "Instagram"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1501
+#: themes/indivio/inc/acf/acf-fields.php:1824
+msgid "YouTube"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1550
+msgid "Customize"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1554
+msgid "Color"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1557
+msgid "Set the primary color for your theme."
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1589
+msgid "Settings"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1593
+msgid "Player information"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1609
+msgid "Names"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1624
+msgid "Nickname"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1643
+msgid "Real name"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1664
+msgid "Images"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1679
+msgid "Profile image"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1682
+msgid "The optimal dimensions for the profile image are 675x1200 pixels."
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1784
+#: themes/indivio/inc/acf/acf-fields.php:1839
+#: themes/indivio/inc/acf/acf-fields.php:1875
+#: themes/indivio/inc/acf/acf-fields.php:1911
+#: themes/indivio/inc/acf/acf-fields.php:1947
+msgid "Username"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1803
+msgid "Show live status"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1968
+msgid "Elements"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1984
+msgid "Sidebar Button"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:1999
+msgid "Show Sidebar Button"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:2018
+msgid "Page or email"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:2038
+#: themes/indivio/inc/acf/acf-fields.php:2050
+msgid "Page"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:2039
+msgid "Email"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:2084
+msgid "Email address"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:2137
+msgid "Page image"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:2152
+msgid "Use profile image"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:2171
+msgid "Use default image"
+msgstr ""
+
+#: themes/indivio/inc/acf/acf-fields.php:2198
+msgid "Own image"
+msgstr ""
+
+#: themes/indivio/inc/acf/blocks.php:12
+msgid "Everblaze"
+msgstr ""
+
+#: themes/indivio/inc/acf/blocks.php:28
+msgid "A custom text block."
+msgstr ""
+
+#: themes/indivio/inc/acf/blocks.php:39
+msgid "Info"
+msgstr ""
+
+#: themes/indivio/inc/acf/blocks.php:40
+msgid "A block to display quick info."
+msgstr ""
+
+#: themes/indivio/inc/acf/blocks.php:53
+msgid "A custom list block."
+msgstr ""
+
+#: themes/indivio/inc/acf/blocks.php:65
+msgid "A block to add a Contact Form 7."
+msgstr ""
+
+#: themes/indivio/inc/acf/blocks.php:77
+msgid "Donation"
+msgstr ""
+
+#: themes/indivio/inc/acf/blocks.php:78
+msgid "A block to place a donation form."
+msgstr ""
+
+#: themes/indivio/inc/acf/blocks.php:90
+msgid "Button"
+msgstr ""
+
+#: themes/indivio/inc/acf/blocks.php:91
+msgid "A block to display a button."
+msgstr ""
+
+#: themes/indivio/inc/acf/options.php:23 themes/indivio/inc/acf/options.php:24
+msgid "Theme Settings"
+msgstr ""
+
+#: themes/indivio/inc/acf/options.php:27
+msgid "Save settings"
+msgstr ""
+
+#: themes/indivio/inc/acf/options.php:28
+msgid "Settings saved"
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:8
+#: themes/indivio/inc/custom-messages.php:11
+msgid "Match updated."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:12
+#, php-format
+msgid "Match restored to revision from %s"
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:13
+msgid "Match published."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:14
+msgid "Match saved."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:15
+msgid "Match submitted."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:16
+#, php-format
+msgid ""
+"Match scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview match</a>"
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:16
+#: themes/indivio/inc/custom-messages.php:29
+#: themes/indivio/inc/custom-messages.php:42
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:17
+msgid "Match draft updated."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:21
+#: themes/indivio/inc/custom-messages.php:24
+msgid "Opponent updated."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:25
+#, php-format
+msgid "Opponent restored to revision from %s"
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:26
+msgid "Opponent published."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:27
+msgid "Opponent saved."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:28
+msgid "Opponent submitted."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:29
+#, php-format
+msgid "Opponent scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:30
+msgid "Opponent draft updated."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:34
+#: themes/indivio/inc/custom-messages.php:37
+msgid "Sponsor updated."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:38
+#, php-format
+msgid "Sponsor restored to revision from %s"
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:39
+msgid "Sponsor published."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:40
+msgid "Sponsor saved."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:41
+msgid "Sponsor submitted."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:42
+#, php-format
+msgid "Sponsor scheduled for: <strong>%1$s</strong>."
+msgstr ""
+
+#: themes/indivio/inc/custom-messages.php:43
+msgid "Sponsor draft updated."
+msgstr ""
+
+#: themes/indivio/inc/customizer.php:61
+msgid "Primary"
+msgstr ""
+
+#: themes/indivio/inc/scssphp-compiler.php:12
+#, php-format
+msgid ""
+"SCSSPHP is bundled with the installed theme, please <a href=\"%s\">deactivate "
+"the installed WP-SCSS plugin</a> as it will cause a conflict."
+msgstr ""
+
+#: themes/indivio/inc/template-tags.php:62
+#: themes/indivio/inc/template-tags.php:158
+msgid ", "
+msgstr ""
+
+#: themes/indivio/inc/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: themes/indivio/inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: themes/indivio/inc/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: themes/indivio/inc/template-tags.php:99
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: themes/indivio/inc/template-tags.php:160
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: themes/indivio/inc/widgets.php:26 themes/indivio/inc/widgets.php:47
+msgid "Recent Posts"
+msgstr ""
+
+#: themes/indivio/inc/widgets.php:29
+msgid "Your site&#8217;s most recent posts"
+msgstr ""
+
+#: themes/indivio/inc/widgets.php:97
+msgid "(no title)"
+msgstr ""
+
+#: themes/indivio/search.php:18 themes/indivio/search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: themes/indivio/template-parts/better-comments.php:21
+msgid "Pingback:"
+msgstr ""
+
+#: themes/indivio/template-parts/better-comments.php:42
+#, php-format
+msgid "<strong class=\"fn\">%s</strong> &#8226; "
+msgstr ""
+
+#: themes/indivio/template-parts/better-comments.php:49
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: themes/indivio/template-parts/better-comments.php:54
+msgid "(Edit)"
+msgstr ""
+
+#: themes/indivio/template-parts/block/matches.php:4
+msgid "List of all matches"
+msgstr ""
+
+#: themes/indivio/template-parts/content-none.php:18
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: themes/indivio/template-parts/content-none.php:31
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: themes/indivio/template-parts/content-none.php:38
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching "
+"can help."
+msgstr ""

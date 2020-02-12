@@ -1,0 +1,26 @@
+.eb-block-giphy {
+    &--info {
+        &_label,
+        &_title {
+            display: inline;
+            vertical-align: middle;
+        }
+        &_label {
+            padding: 5px 10px;
+            color: #fff;
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            background: $color-black;
+            border-radius: 12px;
+        }
+        &_title {
+            margin-left: 5px;
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+    &--gif {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "scp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "35.204.252.203",
+  "port": "55000",
+  "target": "/home/5deba349f911cb0cdc3f0d7a/public_html/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "5deba349f911cb0cdc3f0d7a",
+  "password": "h6-cGqY4-2ZV!d",
+  "watch": [
+    "/wp-content/themes/indivio/style.css",
+    "/wp-content/themes/everblaze/style.css"
+  ]
+}

@@ -11,7 +11,7 @@ acf_add_local_field_group(array(
 			'label' => 'Label color',
 			'name' => 'label_color',
 			'type' => 'color_picker',
-			'instructions' => 'Stel de kleur in voor categorie labels.',
+			'instructions' => 'Set the color for your category labels.',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(

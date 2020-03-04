@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 if( function_exists('acf_add_local_field_group') ):
 
@@ -8,7 +8,7 @@ acf_add_local_field_group(array(
 	'fields' => array(
 		array(
 			'key' => 'field_5c6d58cfb7bdc',
-			'label' => 'Speler informatie',
+			'label' => 'Player information',
 			'name' => '',
 			'type' => 'tab',
 			'instructions' => '',
@@ -58,7 +58,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5cc304015607b',
-					'label' => 'Echte naam',
+					'label' => 'Real name',
 					'name' => 'real_name',
 					'type' => 'text',
 					'instructions' => '',
@@ -110,7 +110,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5c9cd4b36c266',
-					'label' => 'Gebruikersnaam',
+					'label' => 'Username',
 					'name' => 'twitch_username',
 					'type' => 'text',
 					'instructions' => '',
@@ -129,7 +129,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5c9cd4c86c267',
-					'label' => 'Live status tonen',
+					'label' => 'Show live status',
 					'name' => 'twitch_live_status',
 					'type' => 'true_false',
 					'instructions' => '',
@@ -165,7 +165,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5cb99a9329b41',
-					'label' => 'Gebruikersnaam',
+					'label' => 'Username',
 					'name' => 'username',
 					'type' => 'text',
 					'instructions' => '',
@@ -201,7 +201,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5cb99ab6aa8e3',
-					'label' => 'Gebruikersnaam',
+					'label' => 'Username',
 					'name' => 'username',
 					'type' => 'text',
 					'instructions' => '',
@@ -237,7 +237,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5cb99ac580661',
-					'label' => 'Gebruikersnaam',
+					'label' => 'Username',
 					'name' => 'username',
 					'type' => 'text',
 					'instructions' => '',
@@ -273,7 +273,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5cb99ad911210',
-					'label' => 'Gebruikersnaam',
+					'label' => 'Username',
 					'name' => 'username',
 					'type' => 'text',
 					'instructions' => '',
@@ -325,7 +325,7 @@ acf_add_local_field_group(array(
 			'sub_fields' => array(
 				array(
 					'key' => 'field_5d481e906b03a',
-					'label' => 'Gebruikersnaam',
+					'label' => 'Username',
 					'name' => 'username',
 					'type' => 'text',
 					'instructions' => '',
@@ -344,7 +344,7 @@ acf_add_local_field_group(array(
 				),
 				array(
 					'key' => 'field_5d481f106b03c',
-					'label' => 'Spel',
+					'label' => 'Game',
 					'name' => 'game',
 					'type' => 'select',
 					'instructions' => '',

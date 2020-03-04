@@ -62,18 +62,12 @@ function hide_items_multisite() {
 
     	add_action( 'admin_menu', 'remove_menus' );
     	function remove_menus() {
-            $subs = wu_get_current_subscription();
-            if (!empty($subs)){
-                $plandata = $subs->get_plan();
-                $plan_name = $plandata->title;
-            }
-            if ( $plan_name == 'Pro') {
-                remove_menu_page( 'plugins.php' );
-            }
+            remove_menu_page( 'plugins.php' );
     		remove_menu_page( 'tools.php' );
     		remove_menu_page( 'edit.php?post_type=mollie-forms' );
     		remove_menu_page( 'admin.php?page=wp-mail-smtp' );
             remove_menu_page( 'admin.php?page=wp-mail-smtp-logs' );
+            remove_menu_page( 'ultimatemember' );
     	}
 
     	add_action( 'admin_head', 'remove_admin_notices', 50 );
